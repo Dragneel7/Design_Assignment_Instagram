@@ -6,10 +6,12 @@
      	margin:0;
      	padding: 0;
      	box-sizing: border-box;
+     	font-family: Tangerine;
      	
      }
      a{
-     	cursor:default;
+     	cursor:pointer;
+     	text-decoration: none;
      }
      div.header{
      	width: 100%;
@@ -20,14 +22,14 @@
      div.icon{
      	width: 15%;
      	position: absolute;
-     	top:.4em;
+     	top:.2em;
      	
      }
      div.heading{
      	width: 40%;
      	margin-left: 32vw;
      	position: absolute;
-     	top:.7em;
+     	top:.4em;
      	
      }
      img#search_user{
@@ -58,7 +60,7 @@
   	 }
   	 div.content{
   	 	width: 100%;
-  	
+  		background-color: #ffffe6;
   	 	height: 80.5vh;
   	 	position: fixed;
   	 	top:10.1vh;
@@ -114,5 +116,88 @@
   	 	height: auto;
 
   	 }
+  	div.title{
+  		width: 100%;
+  	} 
+  	div.profile_pic{
+  		border-radius: 50%;
+  		width: 2em;
+  		height: 2em;
+  		border:1px solid black;
+  		position: relative;
+  		top:1.5em;
+  		margin-left: 3vw;
+
+  	}
+  	img#profile_pic{
+  		width: 100%;
+  		height: auto;
+  	}
+  	span#username{
+  	position: relative;
+  	left:2.5em;
+  	margin-left: 6vw;
+  	font-weight: bolder;
+  	
+  	}
+  	div.dots{
+  		position: absolute;
+  		left:90%;
+  		top:.65em;
+
+  	}
+  	div.dots span{
+  		font-weight: bolder;
+  		font-size: 3em;
+  	}
+  	div.pic{
+  		width: 100%;
+  		height: 60vw;
+  		
+  		position:relative;
+  		top:1em;
+  	}
+  	img#pic{
+  		width: 100%;
+  		height: auto;
+  	}
+  	div.likes{
+  		position:relative;
+  		top:1em;
+  		
+  	}
+  	li.comment{
+  		display: inline;
+  	} 
+  	img#like{
+  		width: 2.5em;
+  	 	height: auto;
+  	 	position: absolute;
+  	 	left: 1vw;
+
+  	}
+  	img#comment{
+  		width: 2em;
+  	 	height: auto;
+  	 	position: absolute;
+  	 	left: 15vw;
+  	 	top:1.9vh;
+  	}
+  	div.description{
+  		font-family: sans-serif;
+  	}
+  	div.description span{
+  		position: relative;
+  		top:4.5em;
+  		font-size: 1em;
+  		left:.75em;
+  	}
+  	div.chat{
+  		width: 100%;
+  		position: relative;
+  		top:5em;
+  		right: 1.8em;
+  		
+  	}
 
  }
