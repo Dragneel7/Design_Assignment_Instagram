@@ -239,7 +239,8 @@
   		width: 5vh;
   		height: auto;
   		position: absolute;
-  		right: 40%;
+  		bottom:.55em;
+  		right: 37%;
   	}
   	img#love{
   		width: 7vh;
@@ -252,7 +253,7 @@
   		width: 5vh;
   		height: auto;
   		position: absolute;
-  		bottom: 1em;
+  		top:.7em;
   		right: 1em;
   	}
   	div.chat{
