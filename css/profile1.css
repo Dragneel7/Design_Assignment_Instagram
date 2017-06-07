@@ -9,6 +9,9 @@
      	font-family: sans-serif;
      	
      }
+     div.header2{
+      display: none;
+     }
      a{
      	text-decoration: none;
      	cursor: pointer;
@@ -162,6 +165,9 @@
       bottom: 3em;
       margin-left: 1vw;
       
+     }
+     div.icon3{
+      display: none;
      }
      li.li_stats{
       padding-left: 1em; 

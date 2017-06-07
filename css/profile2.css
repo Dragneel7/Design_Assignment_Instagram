@@ -1,0 +1,321 @@
+@media only screen and (max-width:1000px ) and (min-width: 500px){
+	::-webkit-scrollbar { 
+    display: none; 
+	 }
+     body{
+     	margin:0;
+     	padding: 0;
+     	box-sizing: border-box;
+     	font-family: sans-serif;
+     	
+     	
+     }
+     a{
+     	text-decoration: none;
+     	cursor: pointer;
+      color: black;
+
+     }
+      div.footer{
+     	display: none;	
+     
+     }
+     ul.foot_icons{
+     	list-style-type: none;
+     }
+     li{
+     	display: inline;
+     }
+  	
+     div.header{
+      display: none;
+     }
+     
+      div.icon3 img{
+      width: 10%;
+      position: absolute;
+      right: 4em;
+      bottom:3em;
+      display: block;
+      
+     }
+     div.user_photo{
+      width: 20vw;
+      height: 20vw;
+      position: relative;
+      top:5vh;
+      
+     }
+     img#me{
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      margin-left: 10%;
+     }
+     div.username{
+      width: 50%;
+      
+      position: relative;
+      bottom:12vh;
+      margin-left: 35%;
+     }
+     button#edit_profile{
+      background-color: white;
+      width: 115%;
+      height: 2.2em;
+      position: relative;
+      bottom: .5em;
+      cursor: pointer;
+
+     }
+     div.content{
+      width: 100%;
+      border-top: 1px solid lightgrey;
+     overflow-y: scroll;
+      position: fixed;
+      top:10vh;
+      height: 90vh;
+     }
+     p#caption{
+      position: relative;
+      bottom:3em;
+     margin-left:3%;
+     }
+     hr{
+      position: relative;
+      bottom: 3em;
+      opacity: .5;
+     }
+     div.stats ul{
+      position: relative;
+      bottom: 3em;
+      margin-left: 13%;
+      
+     }
+     li.li_stats{
+      padding-left: 1em; 
+     }
+     li span{
+      position: relative;
+      top:1.2em;
+      right: 2em;
+      opacity: 0.5;
+     }
+     div.imageset1{
+      width: 100%;
+      height: 30vw;
+      
+    }
+
+    img#img1{
+      width: 32%;
+      height:30vw;
+      
+      position: relative;
+      bottom:1em;
+      right:12%;
+    }
+    img#img2{
+      width: 32%;
+      height:30vw;
+      
+      position: relative;
+      bottom:1em;
+      right: 6%;
+    }
+    img#img3{
+      width: 32%;
+        height:30vw;
+      
+      position: relative;
+      bottom:1em;
+      left:0%;
+    }
+    button#load{
+      background-color: #3897F0;
+      color: white;
+      width: 90%;
+      margin-left: 5%;
+      border-radius: .5em;
+      position: relative;
+      bottom:1em;
+      height: 2.5em;
+    }
+    	div.header2{
+  		width: 100%;
+  		height: 10.1vh;
+  		position: fixed;
+  		border-top: 1px solid lightgrey;
+
+  	}
+  	div.head_icons{
+  		width:40%;
+  		height: 10.1vh;
+  		
+  		position: absolute;
+  		right: 0;
+  	}
+  	img#compass{
+  		width: 5vh;
+  		height: auto;
+  		position: absolute;
+  		right: 60%;
+  	}
+  	img#love{
+  		width: 7vh;
+  		height: auto;
+  		position: absolute;
+  		bottom:.001em;
+  		right:30%;
+  	}
+  	img#person{
+  		width: 5vh;
+  		height: auto;
+  		position: absolute;
+  		bottom: 1em;
+  		right: 1em;
+  	}
+  	input#search_user{
+  		width:30%;
+  		height: 2em;
+  		background-color: white;
+  		position: absolute;
+  		top:1.2em;
+  		left: 35%;
+  	}
+  	div.heading1{
+  		width: 33%;
+  	
+  		position: absolute;
+  		top:.8em;
+  		
+  	}
+  	div.logo img{
+  		width: 15%;
+  		height: auto;
+  		margin-left: 20%;
+
+  	}
+  	img#insta{
+  		width:50%;
+  		position: absolute;
+  	
+  		left:25%;
+  	}
+}
+
+@media only screen and (min-width:750px ){
+	
+	div.stats{
+		font-size: 1.2em;
+		margin-left: 15vw;
+	}
+	  img#img1{
+      width: 32%;
+      height:30vw;
+      
+      position: relative;
+      bottom:1em;
+      right:4%;
+    }
+    img#img2{
+      width: 32%;
+      height:30vw;
+      
+      position: relative;
+      bottom:1em;
+      right: 1.1%;
+    }
+    img#img3{
+      width: 32%;
+        height:30vw;
+      
+      position: relative;
+      bottom:1em;
+      left:1.8%;
+    }
+     div.username{
+      width: 50%;
+      font-size: 1.2em;
+      position: relative;
+      bottom:18vh;
+      margin-left: 32%;
+     }
+         div.icon3 img{
+      width: 10%;
+      position: absolute;
+      right: 6em;
+      bottom:2.5em;
+      display: block;
+      
+     }
+}
+
+@media only screen and (min-width:850px ){
+	
+	img#compass{
+  		width: 5vh;
+  		height: auto;
+  		position: absolute;
+  		right: 35%;
+  	}
+  	img#love{
+  		width: 7vh;
+  		height: auto;
+  		position: absolute;
+  		bottom:.001em;
+  		right:18%;
+  	}
+  	img#person{
+  		width: 5vh;
+  		height: auto;
+  		position: absolute;
+  		bottom: 1em;
+  		right: 1.5em;
+  	}
+  	input#search_user{
+  		width:45%;
+  		height: 2em;
+  		background-color: white;
+  		position: absolute;
+  		top:1.2em;
+  		left: 25%;
+  	}
+  	div.heading1{
+  		width: 33%;
+  	
+  		position: absolute;
+  		top:.8em;
+  		
+  	}
+  	div.logo img{
+  		width: 15%;
+  		height: auto;
+  		margin-left: 20%;
+
+  	}
+  	       div.icon3 img{
+      width: 10%;
+      position: absolute;
+      right: 10em;
+      bottom:2.5em;
+      display: block;
+      
+     }
+  	img#insta{
+  		width:40%;
+  		position: absolute;
+  	
+  		left:25%;
+  	}
+  	img#logo{
+  		width: 12%;
+  		position: absolute;
+  		
+  		left:10%;
+  	}
+  	div.heading1{
+  		position: absolute;
+  		right:75%;
+  	}
+}
