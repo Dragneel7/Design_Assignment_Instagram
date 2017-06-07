@@ -1,12 +1,14 @@
- @media only screen and (max-width:1000px ) and (min-width: 500px){
-  ::-webkit-scrollbar { 
-    display: none; 
+@media only screen and (max-width:1440px) and (min-width:1000px){
+	  ::-webkit-scrollbar { 
+    	display: none; 
 	 }
-     body{
+
+	  body{
      	margin:0;
      	padding: 0;
      	box-sizing: border-box;
      	font-family: Tangerine;
+     	
      	
      	
      }
@@ -151,101 +153,10 @@
   		right: 0;
   	}
   	img#compass{
-  		width: 5vh;
+  		width: 6vh;
   		height: auto;
   		position: absolute;
-  		right: 60%;
-  	}
-  	img#love{
-  		width: 7vh;
-  		height: auto;
-  		position: absolute;
-  		bottom:.001em;
-  		right:30%;
-  	}
-  	img#person{
-  		width: 5vh;
-  		height: auto;
-  		position: absolute;
-  		bottom: 1em;
-  		right: 1em;
-  	}
-  	input#search_user{
-  		width:30%;
-  		height: 2em;
-  		background-color: white;
-  		position: absolute;
-  		top:1.2em;
-  		left: 35%;
-  	}
-  	div.heading1{
-  		width: 33%;
-  	
-  		position: absolute;
-  		top:.8em;
-  		
-  	}
-  	div.logo img{
-  		width: 15%;
-  		height: auto;
-  		margin-left: 20%;
-
-  	}
-  	img#insta{
-  		width:50%;
-  		position: absolute;
-  	
-  		left:25%;
-  	}
-  	div.extra{
-  		position: relative;
-  		bottom:10em;
-  	}
-
- }
- @media only screen and (min-width:555px){
- 
- 	div.heading1{
- 		position: absolute;
- 		top:.7em;
- 		right: 70%;
- 	}
- 	input#search_user{
-  		width:33%;
-  		height: 2em;
-  		background-color: white;
-  		position: absolute;
-  		top:1.2em;
-  		left: 32%;
-  	}
-  	  div.likes1{
-      position:relative;
-      margin-top:2.5em;
-      
-    }
- }
-
-  @media only screen and (min-width:850px){
- 
- 	div.heading1{
- 		position: absolute;
- 		top:.2em;
- 		right: 70%;
- 	}
- 	input#search_user{
-  		width:45%;
-  		height: 2em;
-  		background-color: white;
-  		position: absolute;
-  		top:1.2em;
-  		left: 32%;
-  	}
-  	img#compass{
-  		width: 5vh;
-  		height: auto;
-  		position: absolute;
-  		bottom:.55em;
-  		right: 37%;
+  		right: 38%;
   	}
   	img#love{
   		width: 7vh;
@@ -258,8 +169,47 @@
   		width: 5vh;
   		height: auto;
   		position: absolute;
-  		top:.7em;
-  		right: 1em;
+  		top:1em;
+  		right:2em;
   	}
+  	input#search_user{
+  		width:50%;
+  		height: 2em;
+  		background-color: white;
+  		position: absolute;
+  		top:1.2em;
+  		left: 28%;
+  	}
+  	div.heading1{
+  		width: 33%;
   	
- }
+  		position: absolute;
+  		top:.8em;
+  		
+  	}
+  	div.logo img{
+  		width: 12%;
+  		height: auto;
+      position: absolute;
+      top:-.3em;
+  		margin-left: 20%;
+
+  	}
+    img#logo{
+      margin-left: 30%;
+    }
+  	img#insta{
+  		width:40%;
+  		position: absolute;
+  	
+  		left:25%;
+  	}
+  	div.extra{
+  		position: relative;
+  		bottom:10em;
+  	}
+   div.extra{
+    position: relative;
+    bottom: 15em;
+   }
+}
