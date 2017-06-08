@@ -30,14 +30,7 @@
       display: none;
      }
     
-     input#mysearch{
-      width:80%;
-      height: 5vw;
-      margin-left:15%;
-      margin-top: 1.2em;
-      background: url(../images/search_insta.png) no-repeat #fff;
-      
-     }
+    
     div.content{
       width: 100%;
       border-bottom: 1px solid lightgrey;
