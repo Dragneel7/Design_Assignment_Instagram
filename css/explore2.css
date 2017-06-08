@@ -1,134 +1,277 @@
-@media only screen and (max-width:1000px ) and (min-width: 500px){
-		::-webkit-scrollbar { 
+	
+@media only screen and (min-width: 500px){
+  ::-webkit-scrollbar { 
     display: none; 
-	 }
+   }
      body{
-     	margin:0;
-     	padding: 0;
-     	box-sizing: border-box;
-     	font-family: Tangerine;
-     	
+      margin:0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Tangerine;
+      
      }
      a{
-     	cursor:pointer;
-     	text-decoration: none;
+      cursor:pointer;
+      text-decoration: none;
      }
       div.footer{
-     	 box-shadow:  black;
-     	width: 100%;
-
-     	position: fixed;
-     	bottom: 0;
+      display: none;
      
      }
      ul.foot_icons{
-     	list-style-type: none;
+      list-style-type: none;
      }
      li{
-     	display: inline;
+      display: inline;
 
+}
+    
+     div.header{
+      display: none;
+     }
+    
+     input#mysearch{
+      width:80%;
+      height: 5vw;
+      margin-left:15%;
+      margin-top: 1.2em;
+      background: url(../images/search_insta.png) no-repeat #fff;
+      
+     }
+    div.content{
+      width: 100%;
+      border-bottom: 1px solid lightgrey;
+      top:10vh;
+      height:88.5vh;
+      position: fixed;
+      overflow-y: scroll;
+      background-color: #ffffe6;
+    } 
+   
 
-  	 }img.nav_icons{
-  	 	width: 2em;
-  	 	height: auto;
-  	 	padding-left: 1.5em;
+    img#img1{
+      width: 32%;
+      height:30vw;
+      
+      position: relative;
+      bottom:1em;
+      right:6%;
+    }
+    img#img2{
+      width: 32%;
+      height:30vw;
+      
+      position: relative;
+      bottom:1em;
+      right: 2%;
+    }
+    img#img3{
+      width: 32%;
+        height:30vw;
+      
+      position: relative;
+      bottom:1em;
+      left:1%;
+    }
+        div.header2{
+      width: 100%;
+      height: 10.1vh;
+      position: fixed;
+      border-top: 1px solid lightgrey;
 
-  	 }
-  	 img#home{
-  	 	position: absolute;
-  	 	left:1%;
-  	 	top:3em;
-  	 	width: 3em;
-  	 	height: auto;
-  	 		
-  	 	
-  	 }
-  	  img#search{
-  	 	position: absolute;
-  	 	left: 17%;
-  	 	top:3em;
-  	 	width: 3em;
-  	 	height: auto;
-  	 		
-  	 	
-  	 }
-  	   img#camera{
-  	 	position: absolute;
-  	 	left: 35%;
-  	 	top:3em;
-  	 	width: 2.5em;
-  	 	height: auto;
+    }
+    div.head_icons{
+      width:40%;
+      height: 10.1vh;
+      
+      position: absolute;
+      right: 0;
+    }
+    img#compass{
+      width: 5vh;
+      height: auto;
+      position: absolute;
+      right: 60%;
+    }
+    img#love{
+      width: 7vh;
+      height: auto;
+      position: absolute;
+      bottom:.001em;
+      right:30%;
+    }
+    img#person{
+      width: 5vh;
+      height: auto;
+      position: absolute;
+      bottom: 1em;
+      right: 1em;
+    }
+    input#search_user{
+      width:30%;
+      height: 2em;
+      background-color: white;
+      position: absolute;
+      top:1.2em;
+      left: 35%;
+    }
+    div.heading1{
+      width: 33%;
+    
+      position: absolute;
+      top:.8em;
+      
+    }
+    div.logo img{
+      width: 15%;
+      height: auto;
+      margin-left: 20%;
 
+    }
+    img#insta{
+      width:50%;
+      position: absolute;
+    
+      left:25%;
+    }
+}
+@media only screen and (min-width: 780px){
+ 
+  div.content{
+      width: 60%;
+      border-bottom: 1px solid lightgrey;
+      top:13vh;
+      margin-left: 23%;
+      height:88.5vh;
+      position: fixed;
+      overflow-y: scroll;
+      background-color: #ffffe6;
+    }
 
-  	 	
-  	 } 
-  	 img#love{
-  	 	position: relative;
-  	 	left:48%;
-  	 	width: 3em;
-  	 	top:1.3em;
-  	 	z-index: -1;
-  	 }
-  	    
-  	    img#person{
-  	 	position: absolute;
-  	 	left:72%;
-  	 	top:3em;
-  	 	width: 2.5em;
-  	 	height: auto;
+    img#img1{
+      width: 30%;
+      height:20vw;
+      
+      position: relative;
+      bottom:1em;
+      right:6%;
+    }
+    img#img2{
+      width: 30%;
+      height:20vw;
+      
+      position: relative;
+      bottom:1em;
+      right: 2%;
+    }
+    img#img3{
+      width: 30%;
+        height:20vw;
+      
+      position: relative;
+      bottom:1em;
+      left:1%;
+    }
+       div.header2{
+      width: 100%;
+      height: 13vh;
+      position: fixed;
+      border-top: 1px solid lightgrey;
 
-  	 }
-  	 div.header{
-  	 	width: 100%;
-  	 	border-bottom:1px solid lightgrey;
-  	 	height: 15vw;
-  	 	position: fixed;
-  	 }
-  	 input#mysearch{
-  	 	width:80%;
-  	 	height: 5vw;
-  	 	margin-left:10%;
-  	 	margin-top: 1.2em;
-  	 	background: url(../images/search_insta.png) no-repeat #fff;
-    	
-  	 }
-  	div.content{
-  		width: 100%;
-  		border-bottom: 1px solid lightgrey;
-  		top:10vh;
-  		height:78.5vh;
-  		position: fixed;
-  		overflow-y: scroll;
-  		background-color: #ffffe6;
-  	}	
-  	div.imageset1,div.imageset2,div.imageset3{
-  		width: 100%;
-  		height: 30vw;
-  		
-  	}
+    }
+}
+@media only screen and (min-width: 1100px){
+  
+     div.header2{
+      width: 100%;
+      height: 15vh;
+      position: fixed;
+      border-top: 1px solid lightgrey;
 
-  	img#img1{
-  		width: 32%;
-  		height:30vw;
-  		
-  		position: relative;
-  		bottom:1em;
-  		right:12%;
-  	}
-  	img#img2{
-  		width: 32%;
-  		height:30vw;
-  		
-  		position: relative;
-  		bottom:1em;
-  		right: 6%;
-  	}
-  	img#img3{
-  		width: 32%;
-  			height:30vw;
-  		
-  		position: relative;
-  		bottom:1em;
-  		left:0%;
-  	}
+    }
+    div.content{
+      width: 50%;
+      border-bottom: 1px solid lightgrey;
+      top:15vh;
+      margin-left: 25%;
+      height:88.5vh;
+      position: fixed;
+      overflow-y: scroll;
+      background-color: #ffffe6;
+    }
+
+    img#img1{
+      width: 30%;
+      height:15vw;
+      
+      position: relative;
+      bottom:1em;
+      right:6%;
+    }
+    img#img2{
+      width: 30%;
+      height:15vw;
+      
+      position: relative;
+      bottom:1em;
+      right: 2%;
+    }
+    img#img3{
+      width: 30%;
+        height:15vw;
+      
+      position: relative;
+      bottom:1em;
+      left:1%;
+    }
+      img#compass{
+      width: 5vh;
+      height: auto;
+      position: absolute;
+      right: 40%;
+    }
+    img#love{
+      width: 7vh;
+      height: auto;
+      position: absolute;
+      bottom:.001em;
+      right:20%;
+    }
+    img#person{
+      width: 5vh;
+      height: auto;
+      position: absolute;
+      bottom: 1em;
+      right: 1.5em;
+    }
+    input#search_user{
+      width:30%;
+      height: 2em;
+      background-color: white;
+      position: absolute;
+      top:1.2em;
+      left: 35%;
+    }
+    div.heading1{
+      width: 33%;
+    
+      position: absolute;
+      top:.8em;
+      
+    }
+    div.logo img{
+      width: 10%;
+      height: auto;
+      margin-left: 20%;
+
+    }
+    img#insta{
+      width:35%;
+      position: absolute;
+    
+      left:25%;
+    }
+    img#logo{
+      margin-left: 30%;
+    }
 }

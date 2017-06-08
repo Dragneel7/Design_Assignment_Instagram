@@ -257,21 +257,21 @@
   		width: 5vh;
   		height: auto;
   		position: absolute;
-  		right: 35%;
+  		right: 25%;
   	}
   	img#love{
   		width: 7vh;
   		height: auto;
   		position: absolute;
   		bottom:.001em;
-  		right:18%;
+  		right:10%;
   	}
   	img#person{
   		width: 5vh;
   		height: auto;
   		position: absolute;
   		bottom: 1em;
-  		right: 1.5em;
+  		right: 2em;
   	}
   	input#search_user{
   		width:45%;
