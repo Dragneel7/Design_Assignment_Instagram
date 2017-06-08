@@ -1,5 +1,5 @@
- @media only screen and (max-width:500px){
- 	::-webkit-scrollbar { 
+@media only screen and (max-width:500px){
+	 	::-webkit-scrollbar { 
     display: none; 
 	 }
      body{
@@ -12,6 +12,8 @@
      a{
      	cursor:pointer;
      	text-decoration: none;
+     	color: black;
+
      }
       div.footer{
      	 box-shadow:  black;
@@ -81,10 +83,10 @@
   	 div.header{
   	 	width: 100%;
   	 	border-bottom:1px solid lightgrey;
-  	 	height: 15vw;
+  	 	height: 18vw;
   	 	position: fixed;
   	 }
-     div.header2{
+  	  div.header2{
       display:none;
 
      }
@@ -96,45 +98,57 @@
   	 	background: url(../images/search_insta.png) no-repeat #fff;
     	
   	 }
-  	div.content{
+  	 	div.content{
   		width: 100%;
   		border-bottom: 1px solid lightgrey;
   		top:10vh;
   		height:78.5vh;
+  		
   		position: fixed;
   		overflow-y: scroll;
-  		background-color: #ffffe6;
-  	}	
-  	div.imageset1,div.imageset2,div.imageset3{
-  		width: 100%;
-  		height: 30vw;
-  		
-  	}
 
-  	img#img1{
-  		width: 32%;
-  		height:30vw;
-  		
-  		position: relative;
-  		bottom:1em;
-  		right:12%;
   	}
-  	img#img2{
-  		width: 32%;
-  		height:30vw;
-  		
+  	img.user_pic{
+  		width:70px;
+  		height: auto;
+  		border-radius: 50%;
   		position: relative;
-  		bottom:1em;
-  		right: 6%;
+  		right: 6em;
   	}
-  	img#img3{
-  		width: 32%;
-  			height:30vw;
-  		
+  	li.name{
   		position: relative;
-  		bottom:1em;
-  		left:0%;
+  		right: 4.5em;
+  		bottom: 2em;
+  		font-size: 1.2em;
   	}
-  	
-  	 }
- 
+  	li.username{
+  		position: relative;
+  		right: 9.3em;
+  		bottom:1em;
+  		font-family: sans-serif;
+  	}
+  	div.user{
+  		position: relative;
+  		top:4em;
+  		margin-left: 8%;
+  	}
+  	button.follow{
+  		position: relative;
+  		
+  		bottom:4em;
+  		margin-left: 75%;
+  		height: 2em;
+  		background-color: #3897F0;
+  		color: white;
+  	}
+  	li.users{
+  		display: list-item;
+  	}
+  	li#tag{
+  		position: relative;
+  		top:2em;
+  		right: 1.4em;
+  		font-family: serif;
+  		color:grey; 
+  	}
+}
