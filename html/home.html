@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/home2.css">
 	<link rel="stylesheet" type="text/css" href="../css/home3.css">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+	<script src="../js/home.js"></script>
 
 </head>
 <body>
@@ -68,16 +69,16 @@
 		<div class="dots"><span><bold>...</bold></span></div>
 	</div>
 	<div class="pic">
-		<img src="../images/naruto.jpg" alt="added image" id="pic">
+		<img src="../images/naruto.jpg" alt="added image" class="pic1" ondblclick="fun(this.id)" id="1">
 	</div>
 	<div class="extra">
 	<div class="likes">
 		<ul class="foot_icons">
 			<li class="comment">
-				<img src="../images/love.png" id="like" >
+				<img src="../images/love.png" class="like" id="like1">
 			</li>
 			<li class="comment">
-				<img src="../images/comment.png" id="comment">
+				<img src="../images/comment.png" class="comment1" id="1" onclick="fun2(this.id)">
 			</li>
 		</ul>
 	</div>
@@ -93,6 +94,9 @@
 			
 			<br>
 			<li><a><strong>Me:</strong>Go defeat Madara !!!</li>
+			<br>
+			<li><input type="text" name="text" class="textbox"
+			id="textbox1" placeholder="comment"></li>
 	</ul>
 	</div>
 	</div>
@@ -110,16 +114,17 @@
 		<div class="dots"><span><bold>...</bold></span></div>
 	</div>
 	<div class="pic">
-		<img src="../images/nasa.jpg" alt="added image" id="pic">
+		<img src="../images/nasa.jpg" alt="added image" class="pic1" ondblclick="fun(this.id)" id="2">
 	</div>
 	<div class="extra">
 	<div class="likes1">
 		<ul class="foot_icons">
 			<li class="comment">
-				<img src="../images/love.png" id="like" >
+				<img src="../images/love.png" class="like" id="like2" >
 			</li>
 			<li class="comment">
-				<img src="../images/comment.png" id="comment">
+				<img src="../images/comment.png" class="comment1"
+				id="2" onclick="fun2(this.id)">
 			</li>
 		</ul>
 	</div>
@@ -131,6 +136,7 @@
 			<br>
 			<li><a><strong>Illuminati :</strong></a>Hello, I am mark jerry  by name, I'm member of the great Illuminati brotherhood.</li>
 			<br>
+			<li><input type="text" name="text" id="textbox2" class="textbox" placeholder="comment"></li>
 			
 	</ul>
 	</div>

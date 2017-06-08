@@ -9,6 +9,12 @@
      	font-family: Tangerine;
      	
      }
+     .textbox{
+      position: relative;
+      top:2em;
+      width: 80%;
+      display: none;
+     }
      a{
      	cursor:pointer;
      	text-decoration: none;
@@ -162,7 +168,7 @@
   		position:relative;
   		top:1em;
   	}
-  	img#pic{
+  	img.pic1{
   		width: 100%;
   		height: auto;
   	}
@@ -174,7 +180,7 @@
   	li.comment{
   		display: inline;
   	} 
-  	img#like{
+  	img.like{
   		width: 2.5em;
   	 	height: auto;
   	 	position: absolute;
@@ -182,7 +188,7 @@
   	 	z-index: -1;
 
   	}
-  	img#comment{
+  	img.comment1{
   		width: 2em;
   	 	height: auto;
   	 	position: absolute;
