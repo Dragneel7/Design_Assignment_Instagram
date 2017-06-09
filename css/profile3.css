@@ -110,7 +110,7 @@
       
     }
 
-    img#img1{
+    img.img1{
       width: 30%;
       height:15vw;
       
@@ -118,7 +118,7 @@
       bottom:1em;
       right:2%;
     }
-    img#img2{
+    img.img2{
       width: 30%;
       height:15vw;
       
@@ -126,7 +126,7 @@
       bottom:1em;
       left: 2.5%;
     }
-    img#img3{
+    img.img3{
       width: 30%;
         height:15vw;
       
@@ -225,6 +225,31 @@
      	position: relative;
      	bottom: 9em;
      }
+        div#ind_image{
+      width: 50%;
+      border:1px solid lightgrey;
+      height: 60vh;
+      position: absolute;
+      top:10em;
+      margin-left: 27%;
+      background-color: #ffffe6;
+      display: none;
+    }
+    img#ind_image1{
+      width: 70%;
+      height: 60vh;
+
+    }
+    div#ind_image button{
+      width: 10%;
+      background-color: red;
+      color: white;
+      
+      position: relative;
+      bottom:100%;
+      margin-left: 88%;
+      cursor: pointer;
+    }
 }
 @media only screen and (min-width:1200px ){
 	

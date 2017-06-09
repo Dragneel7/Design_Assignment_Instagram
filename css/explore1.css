@@ -135,29 +135,29 @@
   		bottom:1em;
   		left:0%;
   	}
-     div#ind_image{
+        div#ind_image{
       width: 50%;
       border:1px solid lightgrey;
-      height: 60vh;
+      height: 30vh;
       position: absolute;
-      top:10em;
-      margin-left: 23%;
+      top:17em;
+      margin-left: 25%;
       background-color: #ffffe6;
       display: none;
     }
     img#ind_image1{
       width: 70%;
-      height: 60vh;
+      height: 30vh;
 
     }
     div#ind_image button{
-      width: 10%;
+      width: 25%;
       background-color: red;
       color: white;
       
       position: relative;
       bottom:100%;
-      margin-left: 88%;
+      margin-left: 76%;
       cursor: pointer;
     }
   	

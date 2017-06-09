@@ -10,6 +10,9 @@
      	
      	
      }
+      div.pop{
+        display: none;
+      }
      a{
      	cursor:pointer;
      	text-decoration: none;
@@ -75,7 +78,7 @@
   		position: absolute;
   		left:90%;
   		top:.65em;
-
+      display: none;
   	}
   	div.dots span{
   		font-weight: bolder;

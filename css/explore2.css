@@ -203,25 +203,11 @@
       height: 60vh;
       position: absolute;
       top:10em;
-      margin-left: 23%;
+      margin-left: 27%;
       background-color: #ffffe6;
       display: none;
     }
-    img#ind_image1{
-      width: 70%;
-      height: 60vh;
-
-    }
-    div#ind_image button{
-      width: 10%;
-      background-color: red;
-      color: white;
-      
-      position: relative;
-      bottom:100%;
-      margin-left: 88%;
-      cursor: pointer;
-    }
+    
 }
 @media only screen and (min-width: 1100px){
   

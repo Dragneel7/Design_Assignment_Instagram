@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/profile1.css">
 	<link rel="stylesheet" type="text/css" href="../css/profile2.css">
 	<link rel="stylesheet" type="text/css" href="../css/profile3.css">
+	<script src="../js/explore.js"></script>
 </head>
 <body>
 <div class="header">
@@ -86,13 +87,13 @@
 	</div>
 	<div class="imageset1">
 		<ul class="foot_icons">
-			<li><a href="#"><img id="img1" src="../images/img1.jpg" alt="image">
+			<li><a href="#"><img class="img1" src="../images/img1.jpg" alt="image" onclick="fun(this.id)" id="1">
 				</a>
 			</li>
-			<li><a href="#"><img id="img2" src="../images/img5.jpg" alt="image">
+			<li><a href="#"><img class="img2" src="../images/img5.jpg" alt="image" onclick="fun(this.id)" id="2">
 				</a>
 			</li>
-			<li><a href="#"><img  id="img3" src="../images/img7.jpg" alt="image">
+			<li><a href="#"><img  class="img3" src="../images/img7.jpg" alt="image" onclick="fun(this.id)" id="3">
 				</a>
 			</li>
 		</ul>
@@ -100,39 +101,39 @@
 <div class="collect">	
 <div class="imageset3">
 		<ul class="foot_icons">
-			<li><a href="#"><img id="img1" src="../images/img10.jpg" alt="image">
+			<li><a href="#"><img class="img1" src="../images/img10.jpg" alt="image" onclick="fun(this.id)" id="4">
 				</a>
 			</li>
-			<li><a href="#"><img id="img2" src="../images/img9.jpg" alt="image">
+			<li><a href="#"><img class="img2" src="../images/img9.jpg" alt="image" onclick="fun(this.id)" id="5">
 				</a>
 			</li>
-			<li><a href="#"><img  id="img3" src="../images/img3.jpg" alt="image">
+			<li><a href="#"><img  class="img3" src="../images/img3.jpg" alt="image" onclick="fun(this.id)" id="6">
 				</a>
 			</li>
 		</ul>
 	</div>
 	<div class="imageset6">
 		<ul class="foot_icons">
-			<li><a href="#"><img id="img1" src="../images/img14.jpg" alt="image">
+			<li><a href="#"><img class="img1" src="../images/img14.jpg" alt="image" onclick="fun(this.id)" id="7">
 				</a>
 			</li>
-			<li><a href="#"><img id="img2" src="../images/img6.jpg" alt="image">
+			<li><a href="#"><img class="img2" src="../images/img6.jpg" alt="image" onclick="fun(this.id)" id="8">
 				</a>
 			</li>
-			<li><a href="#"><img  id="img3" src="../images/img4.jpg" alt="image">
+			<li><a href="#"><img  class="img3" src="../images/img4.jpg" alt="image" onclick="fun(this.id)" id="9">
 				</a>
 			</li>
 		</ul>
 	</div>		
 	<div class="imageset8">
 		<ul class="foot_icons">
-			<li><a href="#"><img id="img1" src="../images/img12.jpg" alt="image">
+			<li><a href="#"><img class="img1" src="../images/img12.jpg" alt="image" onclick="fun(this.id)" id="10">
 				</a>
 			</li>
-			<li><a href="#"><img id="img2" src="../images/img2.jpg" alt="image">
+			<li><a href="#"><img class="img2" src="../images/img2.jpg" alt="image" onclick="fun(this.id)" id="11">
 				</a>
 			</li>
-			<li><a href="#"><img  id="img3" src="../images/img8.jpg" alt="image">
+			<li><a href="#"><img  class="img3" src="../images/img8.jpg" alt="image" onclick="fun(this.id)" id="12">
 				</a>
 			</li>
 		</ul>
@@ -175,6 +176,10 @@
 			</a>
 		</li>
 	</ul>	
+</div>
+<div id="ind_image">
+	<img src="#" id="ind_image1" alt="individuql image here">
+	<button onclick="close1()">Close</button>
 </div>
 
 </body>

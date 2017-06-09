@@ -7,7 +7,7 @@
      	padding: 0;
      	box-sizing: border-box;
      	font-family: Tangerine;
-     	
+     
      }
      .textbox{
       position: relative;
@@ -160,6 +160,7 @@
   	div.dots span{
   		font-weight: bolder;
   		font-size: 3em;
+      cursor:pointer;
   	}
   	div.pic{
   		width: 100%;
@@ -215,6 +216,44 @@
   		position: relative;
   		top:7em;
   	}
+    div.pop{
+      font-size: 1.5em;
+      font-family: sans-serif;
+      width: 100%;
+      height: 40vh;
+      position: relative;
+      top:60vh;
+      background-color: white;
+      border-top:1px solid black;
+      border-bottom: 1px solid black;
+      display: none;
+    }
+    hr{
+      position: relative;
+      right: 12%;
+      width: 120%;
+      top:3em;
+      opacity:0.6;
+    }
+    div.rep{
+      position: relative;
+      right: .7em;
+      top:1.2em;
+      cursor: pointer;
+    }
+     div.cancel{
+      position: relative;
+      left: 2.8em;
+        top:3em;
+        cursor: pointer;
+    }
+    img#loading{
+      width: 10%;
+      height: auto;
+      position: relative;
+      top:30vh;
+      left:40%;
+    }
 
  }
  @media only screen and (min-width:420px){

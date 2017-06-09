@@ -107,7 +107,7 @@
       
     }
 
-    img#img1{
+    img.img1{
       width: 32%;
       height:30vw;
       
@@ -115,7 +115,7 @@
       bottom:1em;
       right:12%;
     }
-    img#img2{
+    img.img2{
       width: 32%;
       height:30vw;
       
@@ -123,7 +123,7 @@
       bottom:1em;
       right: 6%;
     }
-    img#img3{
+    img.img3{
       width: 32%;
         height:30vw;
       
@@ -202,6 +202,31 @@
   	
   		left:25%;
   	}
+       div#ind_image{
+      width: 50%;
+      border:1px solid lightgrey;
+      height: 50vh;
+      position: absolute;
+      top:15em;
+      margin-left: 25%;
+      background-color: #ffffe6;
+      display: none;
+    }
+    img#ind_image1{
+      width: 70%;
+      height: 50vh;
+
+    }
+    div#ind_image button{
+      width: 15%;
+      background-color: red;
+      color: white;
+      
+      position: relative;
+      bottom:100%;
+      margin-left: 80%;
+      cursor: pointer;
+    }
 }
 
 @media only screen and (min-width:750px ){
@@ -210,7 +235,7 @@
 		font-size: 1.2em;
 		margin-left: 15vw;
 	}
-	  img#img1{
+	  img.img1{
       width: 32%;
       height:30vw;
       
@@ -218,7 +243,7 @@
       bottom:1em;
       right:4%;
     }
-    img#img2{
+    img.img2{
       width: 32%;
       height:30vw;
       
@@ -226,7 +251,7 @@
       bottom:1em;
       right: 1.1%;
     }
-    img#img3{
+    img.img3{
       width: 32%;
         height:30vw;
       
@@ -252,19 +277,19 @@
 }
 
 @media only screen and (min-width:850px ){
-	
+
 	img#compass{
   		width: 5vh;
   		height: auto;
   		position: absolute;
-  		right: 25%;
+  		right: 40%;
   	}
   	img#love{
   		width: 7vh;
   		height: auto;
   		position: absolute;
   		bottom:.001em;
-  		right:10%;
+  		right:22%;
   	}
   	img#person{
   		width: 5vh;

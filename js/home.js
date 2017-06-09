@@ -24,4 +24,11 @@ function fun2(y){
 	else{
 		z.style.display="none";
 	}
+}
+function fun3(){
+	console.log("yes");
+	document.getElementById('pop').style.display="block";
 }	
+function close1(){
+	document.getElementById('pop').style.display="none";
+}
