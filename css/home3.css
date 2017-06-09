@@ -217,4 +217,18 @@
     position: relative;
     bottom: 15em;
    }
+      img#loading{
+      width: 5%;
+      height: auto;
+      position: relative;
+      top:10vh;
+      left:40%;
+    }
+    div.post2{
+    position: absolute;
+    top:150vh;
+    }
+    input.textbox{
+      display: none;
+    }
 }

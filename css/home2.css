@@ -118,6 +118,9 @@
   	 	left: 15vw;
   	 	top:1.9vh;
   	}
+    input.textbox{
+      display: none;
+    }
  
   	div.description,div.description1{
   		font-family: sans-serif;
@@ -204,6 +207,16 @@
   		position: relative;
   		bottom:10em;
   	}
+    img#loading{
+      width: 7%;
+      height: auto;
+      position: relative;
+      top:10vh;
+      left:40%;
+    }
+    div.extra{
+      margin-top: 2.5em;
+    }
 
  }
  @media only screen and (min-width:555px){
@@ -264,5 +277,9 @@
   		top:.7em;
   		right: 1em;
   	}
+    div.extra{
+      position: relative;
+      bottom:12em;
+    }
   	
  }
