@@ -2,12 +2,17 @@
 	::-webkit-scrollbar { 
     display: none; 
 	 }
+      @font-face{
+     font-family: font_one;
+    src:url(../font2/OdibeeSans-Regular.otf);
+   }
      body{
-     	margin:0;
-     	padding: 0;
-     	box-sizing: border-box;
-     	font-family: sans-serif;
-     	
+      margin:0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: font_one;
+      
+      
      }
      div.header2{
       display: none;
@@ -163,7 +168,7 @@
      div.stats ul{
       position: relative;
       bottom: 3em;
-      margin-left: 1vw;
+      margin-left: 8vw;
       
      }
      div.icon3{
@@ -175,7 +180,7 @@
      li span{
       position: relative;
       top:1.2em;
-      right: 2em;
+      right: 1.6em;
       opacity: 0.5;
      }
      div.imageset1{
@@ -207,6 +212,9 @@
       position: relative;
       bottom:1em;
       left:0%;
+    }
+    img.img1:hover,img.img2:hover,img.img3:hover{
+      filter: brightness(60%);
     }
     button#load{
       background-color: #3897F0;

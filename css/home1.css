@@ -2,11 +2,16 @@
      ::-webkit-scrollbar { 
     display: none; 
 	 }
+   
+   @font-face{
+     font-family: font_one;
+    src:url(../font2/OdibeeSans-Regular.otf);
+   }
      body{
      	margin:0;
      	padding: 0;
      	box-sizing: border-box;
-     	font-family: Tangerine;
+     	
      
      }
      .textbox{
@@ -39,6 +44,7 @@
      	margin-left: 32vw;
      	position: absolute;
      	top:.4em;
+
      	
      }
      img#search_user{
@@ -149,6 +155,7 @@
   	left:2.5em;
   	margin-left: 6vw;
   	font-weight: bolder;
+    font-family:Tangerine;
   	
   	}
   	div.dots{
@@ -197,7 +204,8 @@
   	 	top:1.9vh;
   	}
   	div.description,div.description1{
-  		font-family: sans-serif;
+  		font-family: font_one;
+      font-size: 1.2em;
   	}
   	div.description span,div.description1 span{
   		position: relative;
@@ -218,7 +226,7 @@
   	}
     div.pop{
       font-size: 1.5em;
-      font-family: sans-serif;
+      font-family: font_one;
       width: 100%;
       height: 40vh;
       position: relative;

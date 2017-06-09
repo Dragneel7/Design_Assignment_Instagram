@@ -2,6 +2,10 @@
   ::-webkit-scrollbar { 
     display: none; 
 	 }
+      @font-face{
+     font-family: font_one;
+    src:url(../font2/OdibeeSans-Regular.otf);
+   }
      body{
      	margin:0;
      	padding: 0;
@@ -123,7 +127,8 @@
     }
  
   	div.description,div.description1{
-  		font-family: sans-serif;
+  		font-family: font_one;
+      font-size: 1.2em;
   	}
   	div.description span,div.description1 span{
   		position: relative;
