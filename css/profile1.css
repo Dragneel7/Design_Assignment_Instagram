@@ -251,6 +251,18 @@
       margin-left: 74%;
       cursor: pointer;
     }
+    div.links{
+      position: relative;
+
+      font-size: 1.2em;
+      margin-left: 7%;
+    }
+    div.links li{
+      padding-left: .5em;
+    }
+    div.copyright{
+      margin-left: 36%;
+    }
    
 }
 @media only screen and  (min-width: 500px){
@@ -348,11 +360,23 @@
     div.stats{
       margin-left: 14%;
     }
+      div.links{
+        margin-left: 15%;
+      }
+    div.copyright{
+      margin-left: 36%;
+    }
 }
 @media only screen and  (min-width: 700px){
  
    div.stats{
       margin-left: 24%;
+    }
+     div.links{
+        margin-left: 35%;
+      }
+    div.copyright{
+      margin-left: 45%;
     }
 }
 @media only screen and  (min-width: 1000px){
@@ -425,4 +449,20 @@
       height: auto;
       margin-left: 20%;
     }
+         div.links{
+        margin-left: 30%;
+        bottom: 2em;
+      }
+    div.copyright{
+      margin-left: 45%;
+      position: relative;
+      bottom:2em;
+    }
+    div.links{
+        margin-left: 30%;
+      }
+    div.copyright{
+      margin-left: 45%;
+    }
+}
 }

@@ -156,6 +156,18 @@
       margin-left: 76%;
       cursor: pointer;
     }
+    div.links{
+      position: relative;
+
+      font-size: 1.2em;
+      
+    }
+    div.links li{
+      padding-left: .5em;
+    }
+    div.copyright{
+      margin-left: 36%;
+    }
   	
   	 }
      @media only screen and (min-width: 500px){
@@ -255,6 +267,10 @@
     div#ind_image button{
       width: 22%;
      }
+    
+     div.links{
+      margin-left: 20%;
+     }
     }
 
  @media only screen and (min-width: 780px){
@@ -337,4 +353,14 @@
       height: 60vh;
 
     }
+div.links{
+      margin-left: 35%;
+      position: relative;
+      bottom:1em;
+     }
+     div.copyright{
+      position: relative;
+      bottom: 2.5em;
+      margin-left: 45%;
+     }
  }
