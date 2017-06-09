@@ -1,4 +1,4 @@
- @media only screen and (max-width:500px){
+ @media only screen and (min-width:200px){
      ::-webkit-scrollbar { 
     display: none; 
 	 }
@@ -281,11 +281,12 @@
       
      }
      img#search_user{
-      width: 80%;
+      width: 70%;
       height:auto;
      }
      img#instagram{
       width: 80%;
+      margin-top: .3em;
       height: auto;
      }
       div.likes1{
@@ -294,3 +295,137 @@
       
     }
  }
+ @media only screen and (min-width:500px){
+     div.header{
+      display: none;
+     }
+       div.footer{
+       display: none;
+     }
+      div.content{
+      width: 100%;
+      background-color: #ffffe6;
+      height: 90vh;
+      position: fixed;
+     
+      top:10.2vh;
+    }
+      div.dots{
+      display: none;
+    }
+    div.header2{
+      width: 100%;
+      height: 10.1vh;
+      position: fixed;
+      border-top: 1px solid lightgrey;
+      display: block;
+    }
+    div.head_icons{
+      width:40%;
+      height: 10.1vh;
+      
+      position: absolute;
+      right: 0;
+    }
+    img#compass{
+      width: 5vh;
+      height: auto;
+      position: absolute;
+      right: 60%;
+    }
+    img#love{
+      width: 7vh;
+      height: auto;
+      position: absolute;
+      top:.1em;
+      
+
+     
+    }
+    img#person{
+      width: 5vh;
+      height: auto;
+      position: absolute;
+      top:1em;
+     
+
+    }
+    input#search_user{
+      width:30%;
+      height: 2em;
+      background-color: white;
+      position: absolute;
+      top:1.2em;
+      left: 35%;
+    }
+    div.heading1{
+      width: 33%;
+    
+      position: absolute;
+      top:.8em;
+      
+    }
+    div.logo img{
+      width: 15%;
+      height: auto;
+      margin-left: 20%;
+
+    }
+    img#insta{
+      width:50%;
+      position: absolute;
+    
+      left:25%;
+    }
+    div.extra{
+      position: relative;
+      top:3em;
+    }
+
+ }
+@media only screen and (min-width:850px){
+ 
+  img#insta{
+    width:40%;
+    position: absolute;
+    bottom:.1em;
+  }
+  img#logo{
+    width: 12%;
+    position: relative;
+    bottom:.4em;
+}
+ div.extra{
+  position: relative;
+  top:5em;
+ }
+ div.post2{
+  position: relative;
+  top:15em;
+ }
+
+
+}
+@media only screen and (min-width:1000px){
+ 
+ div.wrapper{
+  width: 60%;
+  margin-left: 20%;
+ }
+ div.extra1{
+  position: relative;
+  bottom:20em;
+ }
+ div.extra2{
+  position: relative;
+  bottom: 20em;
+ }
+ div.post2_2{
+   position: relative;
+  bottom:20em;
+ }
+ div.gif{
+  position: relative;
+  top:10em;
+ }
+}
