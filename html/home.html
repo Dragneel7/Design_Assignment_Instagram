@@ -12,10 +12,10 @@
 </head>
 <body>
 
-<div class="header">
+<div class="header" id="header">
 	<div class="icon">
 		<a href="profile.html">
-			<img src="../images/user.svg" alt="add user icon" id="search_user">
+			<img src="../images/person.png" alt="add user icon" id="search_user">
 		</a>
 	</div>
 	<div class="heading">
@@ -23,6 +23,7 @@
 			<img src="../images/instagram.png" alt="instagram" id="instagram">
 		</a>
 	</div>
+
 </div>
 
 <div class="header2">
@@ -59,15 +60,15 @@
 </div>
 
 
-<div class="content">
- <div class="wrapper">	
+<div class="content" id="content">
+ <div class="wrapper" id="wrapper">	
 	<div class="title">
 		<div class="profile_pic">
-			<a href="#"><img src="../images/user.svg" alt="pro" id="profile_pic"></a>
+			<a href="#"><img src="../images/person.png" alt="pro" id="profile_pic"></a>
 					</div>
 					<a href="#"><span id="username">Naruto</span></a>
 
-		<div class="dots" onclick="fun3()"><span><bold>...</bold></span></div>
+		<div class="dots" onclick="fun3()" id="dots"><span><bold>...</bold></span></div>
 	</div>
 	<div class="pic">
 		<img src="../images/naruto.jpg" alt="added image" class="pic1" ondblclick="fun(this.id)" id="1">
@@ -109,11 +110,11 @@
 	<div class="post2">
 	<div class="title">
 		<div class="profile_pic">
-			<a href="#"><img src="../images/user.svg" alt="pro" id="profile_pic"></a>
+			<a href="#"><img src="../images/person.png" alt="pro" id="profile_pic"></a>
 					</div>
 					<a href="#"><span id="username">NASA</span></a>
 
-		<div class="dots" onclick="fun3()"><span><bold>...</bold></span></div>
+		<div class="dots" onclick="fun3()" id="dots"><span><bold>...</bold></span></div>
 	</div>
 	<div class="pic">
 		<img src="../images/nasa.jpg" alt="added image" class="pic1" ondblclick="fun(this.id)" id="2">
@@ -164,7 +165,7 @@
 		</li>
 		<li >
 			<a href="explore.html">
-				<img class="nav_icons" src="../images/search_insta.png" alt="icon" id="search">
+				<img class="nav_icons" src="../images/search.png" alt="icon" id="search">
 			</a>
 		</li>
 		<li >
@@ -186,10 +187,11 @@
 </div>
 <div class="pop" id="pop">
 	<ul class="foot_icons">
-		<li><div class="rep">REPORT INAPPROPRIATE</div></li>
+		<li><div class="rep">Report Inappropriate</div></li>
 		<hr>
-		<br>
-		<li><div class="cancel" onclick="close1()">CANCEL</div></li>
+		<li><div class="embed" >Embed</div></li>
+		<hr id="hr2">
+		<li><div class="cancel" onclick="close1()">Cancel</div></li>
 	</ul>
 </div>
 

@@ -30,22 +30,24 @@
      }
      div.header{
      	width: 100%;
-     	height: 10.1vh;
-
+     	height: 7%;
+      
      	position: fixed;
+
      }
      div.icon{
-     	width: 15%;
+     	width: 7.5%;
      	position: absolute;
-     	top:.2em;
-     	
+      top:.6em;
+     	margin-left: 7%;
+     	    
      }
      div.heading{
-     	width: 40%;
+     	width: 30%;
      	margin-left: 32vw;
      	position: absolute;
-     	top:.4em;
-
+     	top:.5em;
+      
      	
      }
      img#search_user{
@@ -58,10 +60,12 @@
 
 
      }
+
      div.footer{
      	 box-shadow:  black;
      	width: 100%;
-
+      height: 7%;
+     
      	position: fixed;
      	bottom: 0;
      
@@ -76,61 +80,60 @@
   	 }
   	 div.content{
   	 	width: 100%;
-  		background-color: #ffffe6;
-  	 	height: 80.5vh;
+  		background-color: #fafafa;
+  	 	height: 85.5%;
   	 	position: fixed;
-  	 	top:10.1vh;
+  	 	top:7.1%;
   	 	overflow-y: scroll;
       border-bottom: 1px solid lightgrey;
+      border-top: .5px solid lightgrey;
 
   	 }
-  	 img.nav_icons{
-  	 	width: 2em;
-  	 	height: auto;
-  	 	padding-left: 1.5em;
-
-  	 }
+  	 
   	 img#home{
+      
   	 	position: absolute;
-  	 	left:1%;
-  	 	top:3em;
-  	 	width: 3em;
+  	 	left:3%;
+  	 	bottom:.3em;
+  	 	width: 2.2em;
   	 	height: auto;
   	 		
   	 	
   	 }
   	  img#search{
   	 	position: absolute;
-  	 	left: 17%;
-  	 	top:3em;
-  	 	width: 3em;
-  	 	height: auto;
+  	 	left: 23%;
+  	   bottom:.5em;
+  	 	width: 25px;
+  	 	height:25px;
+    
   	 		
   	 	
   	 }
   	   img#camera{
   	 	position: absolute;
-  	 	left: 35%;
-  	 	top:3em;
-  	 	width: 2.5em;
-  	 	height: auto;
+  	 	left: 45%;
+  	 bottom:.6em;
+  	 	width: 26px;
+      height: 25px;
+  	 
 
 
   	 	
   	 } 
   	 img#love{
   	 	position: relative;
-  	 	left:48%;
-  	 	width: 3em;
-  	 	top:1.3em;
+  	 	left:63%;
+  	 	width: 1.55em;
+  	   bottom:.18em;
   	 	z-index: -1;
   	 }
   	    
   	    img#person{
   	 	position: absolute;
-  	 	left:72%;
-  	 	top:3em;
-  	 	width: 2.5em;
+  	 	left:88%;
+  	 	 bottom:.45em;
+  	 	width: 1.65em;
   	 	height: auto;
 
   	 }
@@ -149,6 +152,8 @@
   	}
   	img#profile_pic{
   		width: 100%;
+      height: 100%;
+      border-radius: 50%;
   		height: auto;
   	}
   	span#username{
@@ -162,12 +167,12 @@
   	div.dots{
   		position: absolute;
   		left:90%;
-  		top:.65em;
+  		top:1.7em;
 
   	}
   	div.dots span{
   		font-weight: bolder;
-  		font-size: 3em;
+  		font-size: 1.2em;
       cursor:pointer;
   	}
   	div.pic{
@@ -181,19 +186,27 @@
   		width: 100%;
   		height: auto;
   	}
-  	div.likes,div.likes1{
+  	div.likes{
   		position:relative;
+      left:.1em;
   		top:1em;
   		
   	}
+    div.likes1{
+      position:relative;
+      left:.1em;
+      top:1.2em;
+      
+    }
   	li.comment{
   		display: inline;
   	} 
   	img.like{
-  		width: 2.5em;
+  		width: 1.5em;
   	 	height: auto;
   	 	position: absolute;
-  	 	left: 1vw;
+  	 	left: 3%;
+      top:1.2em;
   	 	z-index: -1;
 
   	}
@@ -218,7 +231,7 @@
   		width: 100%;
   		position: relative;
   		top:5em;
-  		right: 1.8em;
+  		right: 7%;
   		
   	}
   	div.post2{
@@ -226,12 +239,12 @@
   		top:7em;
   	}
     div.pop{
-      font-size: 1.5em;
+      font-size: 1.2em;
       font-family: font_one;
       width: 100%;
-      height: 40vh;
+      height: 25vh;
       position: fixed;
-     bottom:9vh;
+     bottom:0vh;
       background-color: white;
       border-top:1px solid black;
       border-bottom: 1px solid black;
@@ -241,26 +254,39 @@
       position: relative;
       right: 12%;
       width: 120%;
-      top:3em;
+      
+      opacity:0.6;
+    }
+      hr#hr2{
+      position: relative;
+      right: 12%;
+      width: 120%;
+      top:.6em;
+      
       opacity:0.6;
     }
     div.rep{
       position: relative;
       text-align: center;
-      top:1.2em;
+      right: 8%;
+      bottom:.2em;
       cursor: pointer;
+    }
+    div.embed{
+      position: relative;
+      left: 34%;
     }
      div.cancel{
       position: relative;
-      left: 2.8em;
-        top:3em;
+      left: 35%;
+       top:1em;
         cursor: pointer;
     }
     img#loading{
       width: 10%;
       height: auto;
       position: relative;
-      top:30vh;
+        top:17vh;
       left:40%;
     }
 
