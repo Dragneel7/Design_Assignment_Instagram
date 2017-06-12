@@ -38,24 +38,24 @@
      div.icon{
      	width: 7.5%;
      	position: absolute;
-      top:.6em;
-     	margin-left: 7%;
+      top:.7em;
+     	margin-left: 15px;
      	    
      }
      div.heading{
      	width: 30%;
-     	margin-left: 32vw;
+     	margin-left: 35vw;
      	position: absolute;
-     	top:.5em;
+     	top:.7em;
       
      	
      }
      img#search_user{
-     	width: 100%;
+     	width: 25px;
      	height:auto;
      }
      img#instagram{
-     	width: 100%;
+     	width: 90px;
      	height: auto;
 
 
@@ -231,7 +231,7 @@
   		width: 100%;
   		position: relative;
   		top:5em;
-  		right: 7%;
+  		right: 4vh;
   		
   	}
   	div.post2{
@@ -291,37 +291,7 @@
     }
 
  }
- @media only screen and (min-width:420px){
-  
-   div.icon{
-      width: 15%;
-      position: absolute;
-      left: 5%
-     
-      
-     }
-     div.heading{
-      width: 40%;
-      margin-left: 32vw;
-      position: absolute;
-      top:.1em;
-      
-     }
-     img#search_user{
-      width: 70%;
-      height:auto;
-     }
-     img#instagram{
-      width: 80%;
-      margin-top: .3em;
-      height: auto;
-     }
-      div.likes1{
-      position:relative;
-      top:1.5em;
-      
-    }
- }
+ 
  @media only screen and (min-width:500px){
      div.header{
       display: none;
@@ -335,124 +305,179 @@
       height: 90vh;
       position: fixed;
      
-      top:10.2vh;
+      top:12vh;
     }
       div.dots{
       display: none;
     }
     div.header2{
       width: 100%;
-      height: 10.1vh;
+      height: 12.1vh;
       position: fixed;
       border-top: 1px solid lightgrey;
       display: block;
     }
-    div.head_icons{
-      width:40%;
-      height: 10.1vh;
-      
-      position: absolute;
-      right: 0;
-    }
+   
     img#compass{
-      width: 5vh;
-      height: auto;
+      width: 35px;
+      height: 35px;
       position: absolute;
-      right: 60%;
+      left:68%;
+      top:20px;
     }
     img#love{
-      width: 7vh;
-      height: auto;
+     width: 28px;
+      height:23px;
+      
       position: absolute;
-      top:.1em;
+      left:78.5%;
+      top:28px;
       
 
      
     }
     img#person{
-      width: 5vh;
-      height: auto;
+    width: 28px;
+      height: 28px;
+      
       position: absolute;
-      top:1em;
+      left:88%;
+      top:27px;
      
 
     }
     input#search_user{
-      width:30%;
-      height: 2em;
-      background-color: white;
+      width: 90px;
       position: absolute;
-      top:1.2em;
-      left: 35%;
+      top:30px;
+      left:43%;
+      z-index: -1;
+      background-color: :lightgrey;
     }
     div.heading1{
-      width: 33%;
-    
+      width: 36%;
+      
       position: absolute;
       top:.8em;
       
     }
-    div.logo img{
-      width: 15%;
+    img#logo{
+     width: 30px;
       height: auto;
-      margin-left: 20%;
+      margin-left: 40px;
+      position: relative;
+
+      bottom:20px; 
+
 
     }
     img#insta{
-      width:50%;
+      width:90px;
       position: absolute;
-    
-      left:25%;
+      bottom:22px;
+      left:100px;
+    }
+   div.vr{
+      border-right: 1px solid grey;
+      padding-right: 15px;
+      height: 30px;
+      width: 10px;
+      position: relative;
+      left:59px;
+      top:9px;
     }
     div.extra{
       position: relative;
       top:3em;
     }
+    div.post2{
+      position: relative;
+      top:12em;
+    }
+    
+    li.comment1,li.comment2{
+      position:relative;
+      left:10px; 
+    }
 
  }
-@media only screen and (min-width:850px){
- 
-  img#insta{
-    width:40%;
-    position: absolute;
-    bottom:.1em;
+@media only screen and (min-width:750px){
+  div.heading1{
+    margin-left: 15%;
   }
-  img#logo{
-    width: 12%;
-    position: relative;
-    bottom:.4em;
-}
- div.extra{
-  position: relative;
-  top:5em;
- }
- div.post2{
-  position: relative;
-  top:15em;
- }
 
-
+  
 }
 @media only screen and (min-width:1000px){
- 
+  input#search_user{
+    width: 200px;
+    left:39%;
+    height: 20px;
+    border-radius: 1px;
+  }
  div.wrapper{
   width: 60%;
   margin-left: 20%;
  }
- div.extra1{
+ div.extra{
   position: relative;
-  bottom:20em;
+  top:5em;
  }
+  div.extra1{
+  position: relative;
+ bottom:40vh;
+ }
+  div.heading1{
+    margin-left: 1%;
+  }
  div.extra2{
   position: relative;
   bottom: 20em;
  }
  div.post2_2{
+  
    position: relative;
   bottom:20em;
+ }
+ div.post2{
+  border:1px solid lightgrey;
+  position: relative;
+  top:55vh;
+ }
+  div.post1{
+  border:1px solid lightgrey;
  }
  div.gif{
   position: relative;
   top:10em;
  }
+  img#logo{
+     width: 34px;
+      height: auto;
+      margin-left: 170px;
+      position: relative;
+
+      bottom:30px; 
+
+
+    }
+    div.vr{
+      height: 40px;
+      left:194px;
+    }
+    img#insta{
+      width:110px;
+      position: absolute;
+      bottom:30px;
+      left:230px;
+    }
+    img#compass{
+left:64%;
+   } 
+   img#love{
+left:69%;
+    }
+  img#person{
+    left:74%;
+  }
 }
