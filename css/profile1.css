@@ -220,14 +220,14 @@
      }
     
     img.img1{
-      width: 34%;
+      width: 33%;
       height:35vw;
       
       position:absolute;
      left:0;
     }
     img.img2{
-      width: 34%;
+      width: 33%;
       height:35vw;
       
       position: absolute;
@@ -235,12 +235,12 @@
     
     }
     img.img3{
-      width: 34%;
+      width: 33%;
         height:35vw;
       
       position: relative;
       
-     left:66%;
+     left:66.5%;
     }
     
   div.load{
@@ -284,6 +284,9 @@
       margin-left: 74%;
       cursor: pointer;
     }
+    div.stats ul{
+      margin-left: 40%;
+    }
     div.links{
       position: relative;
 
@@ -297,6 +300,12 @@
       margin-left: 36%;
     }
     div.links,div.copyright{
+      display: none;
+    }
+    img.img2{
+      left:34.5%;
+    }
+    ul#icon3{
       display: none;
     }
    
@@ -314,7 +323,7 @@
       height: 90vh;
       position: fixed;
      
-      top:10.2vh;
+      top:12.4vh;
     }
       div.dots{
       display: none;
@@ -323,7 +332,7 @@
       width: 100%;
       height: 12.1vh;
       position: fixed;
-      border-top: 1px solid lightgrey;
+      border-bottom: 1px solid lightgrey;
       display: block;
     }
    
@@ -361,6 +370,9 @@
       left:43%;
       z-index: -1;
       background-color: :lightgrey;
+    }
+     img.img1:hover,img.img2:hover,img.img3:hover{
+      filter: brightness(60%);
     }
     div.heading1{
       width: 36%;
@@ -405,113 +417,205 @@
     div#ind_image button{
       width: 20%;
     }
-    div.stats{
-      margin-left: 14%;
-    }
+ 
       div.links{
         margin-left: 15%;
       }
     div.copyright{
       margin-left: 36%;
     }
-}
-
-@media only screen and  (min-width: 700px){
-  body{
-    background-color: red;
-  }
-   div.stats{
-      margin-left: 24%;
-    }
-     div.links{
-        margin-left: 35%;
-      }
-    div.copyright{
-      margin-left: 45%;
-    }
-}
-@media only screen and  (min-width: 1000px){
- img.img1:hover,img.img2:hover,img.img3:hover{
-      filter: brightness(60%);
-    }
- body{
-    background-color: green;
-  }
-   div.stats{
-      margin-left: 24%;
-    }
-    div.content{
-      top:13vh;
-    }
-    div.header2{
-      height: 13vh
-    }
-    div.wrapper{
-      width:60%;
-      margin-left: 20%;
-    }
-
-    img.img1{
-      width: 30%;
-      height:15vw;
-      
-      position: relative;
-      bottom:1em;
-      right:2%;
-    }
-    img.img2{
-      width: 30%;
-      height:15vw;
-      
-      position: relative;
-      bottom:1em;
-      left: 2.5%;
-    }
-    img.img3{
-      width: 30%;
-        height:15vw;
-      
-      position: relative;
-      bottom:1em;
-      left:7%;
-    }
-    div.username{
-      left:2em;
-      bottom:9em;
-    }
-     div#ind_image{
-      height: 60vh;
-      top:10em;
-    }
-    img#ind_image1{
-      height: 60vh;
-    }
-    div#ind_image button{
-      width: 10%;
-      margin-left: 90%;
-    }
-    div.collect{
-      position: relative;
-      bottom:12em;
-    }
-      img#insta{
-      width:40%;
+    div.icon3{
+      display: block;
       position: absolute;
-    
-      left:25%;
+      top:40px;
+      left:220px;
     }
-      div.logo img{
-      width: 12%;
-      height: auto;
-      margin-left: 20%;
+    div.icon3 img{
+      width: 26px;
+      height: 26px;
     }
-         div.links{
-        margin-left: 30%;
-        bottom: 2em;
-      }
-    div.copyright{
-      margin-left: 45%;
+     div.links,div.copyright{
+      display: block;
+    }
+    div.links ul.foot_icons li{ 
+      font-weight: bold;
+
+      font-size: 12px;
+    }
+    ul#icons1{
+
       position: relative;
-      bottom:2em;
+      left:-100px;
+      margin-left: 18%;
+                    
     }
+    ul#icons2{
+      position: relative;
+      left:-80px;
+      bottom:10px;
+
+      margin-left: 18%;
+    }
+    div.copyright{
+      margin-bottom: 20px;
+      font-size: 13px;
+      color: grey;
+      font-weight: bolder;
+    }
+}
+@media only screen and  (min-width: 600px){
+  input#search_user{
+    width: 150px;
+    left:0px;
+    margin-left: 35%;
+  }
+}
+
+@media only screen and  (min-width: 726px){
+ 
+
+   img#me{
+    width: 152px;
+    height: 152px;
+
+    
+   }
+   div.user_photo{
+    margin-left: 38%;
+    top:1em;
+    left:-200px;
+   }
+   div.person_name{
+      width: 103px;
+    font-size:25px;
+     left:-20px;
+    margin-left: 38%;
+     
+     }
+     button#edit_profile{
+      
+      width: 128px; 
+         height: 28px;
+      position: relative;
+      bottom: 65px;
+      left:100px;
+     margin-left: 38%;
+
+     }
+     div.icon3{
+      left:240px;
+      top:44px;
+      margin-left: 38%;
+     }
+     hr{
+      display: none;
+     }
+     div.stats ul{
+     
+      top:70px;
+      font-size: 14px;
+      left:-90px;
+      margin-left: 38%;
+     }
+     
+      p#caption{
+        bottom:10px;
+        left:-15px;
+        margin-left: 38%;
+      }
+      img#love{
+   
+        left: -100px;
+      }
+      img#person{
+        /*im unable to move this image and i dont know the reason */
+      }
+      img.img1{
+      width: 30%;
+      height:30vw;
+      left:4%;
+   
+    }
+     img.img2{
+      width: 30%;
+      height:30vw;
+      left:37%;
+   
+    }
+     img.img3{
+      width: 30%;
+      height:30vw;
+      left:68%;
+   
+    }
+     ul#icons1{
+
+      position: relative;
+      left:-100px;
+      margin-left: 26%;
+                    
+    }
+    ul#icons2{
+      
+
+      margin-left: 26%;
+    }
+    div.copyright{
+      margin-bottom: 20px;
+      margin-left: 42%;
+    }
+    div.load{
+      width: 100px;
+      margin: auto;
+    }
+
+}
+
+@media only screen and  (min-width: 1000px){
+div.wrapper{
+  width:80%;
+  margin-left: 10%;
+  background-color: white;
+}
+
+div.icon3{
+  left:270px;
+}
+div.stats ul{
+  left:-65px;
+}
+img#person{
+ /*still unable to move this image*/
+}
+ul#icons1,ul#icons2{
+  display: none;
+}
+ul#icon3{
+  display: block;
+  position: relative;
+  right:148px;
+}
+ div.copyright{
+     position: relative;
+     bottom:36px;
+     left:350px;
+    }
+
+
+}
+
+@media only screen and  (min-width: 1200px){
+  img.img1{
+    height: 300px;
+    width: 300px;
+  }
+  img.img2{
+    height: 300px;
+    width: 300px;
+  }
+  img.img3{
+    height: 300px;
+    width: 300px;
+  }
+ 
 }
