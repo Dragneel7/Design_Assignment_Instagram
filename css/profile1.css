@@ -302,10 +302,7 @@
    
 }
 @media only screen and  (min-width: 500px){
-  body{
-    background-color:blue;
-  }
-       div.header{
+      div.header{
       display: none;
      }
        div.footer{
@@ -313,7 +310,7 @@
      }
       div.content{
       width: 100%;
-      background-color: #ffffe6;
+      background-color: #fafafa;
       height: 90vh;
       position: fixed;
      
@@ -322,70 +319,82 @@
       div.dots{
       display: none;
     }
-    div.header2{
+     div.header2{
       width: 100%;
-      height: 10.1vh;
+      height: 12.1vh;
       position: fixed;
       border-top: 1px solid lightgrey;
       display: block;
     }
-    div.head_icons{
-      width:40%;
-      height: 10.1vh;
-      
-      position: absolute;
-      right: 0;
-    }
+   
     img#compass{
-      width: 5vh;
-      height: auto;
+      width: 35px;
+      height: 35px;
       position: absolute;
-      right: 60%;
+      left:68%;
+      top:20px;
     }
     img#love{
-      width: 7vh;
-      height: auto;
+     width: 28px;
+      height:23px;
+      
       position: absolute;
-      top:.1em;
+     left:-58px;
+   
+      top:28px;
       
 
      
     }
     img#person{
-      width: 5vh;
-      height: auto;
-      position: absolute;
-      top:1em;
+    width: 28px;
+      height: 28px;
+     position: absolute;
+     top:27px;
      
 
     }
     input#search_user{
-      width:30%;
-      height: 2em;
-      background-color: white;
+      width: 90px;
       position: absolute;
-      top:1.2em;
-      left: 35%;
+      top:30px;
+      left:43%;
+      z-index: -1;
+      background-color: :lightgrey;
     }
     div.heading1{
-      width: 33%;
-    
+      width: 36%;
+      
       position: absolute;
       top:.8em;
       
     }
-    div.logo img{
-      width: 15%;
+    img#logo{
+     width: 30px;
       height: auto;
-      margin-left: 20%;
+      margin-left: 40px;
+      position: relative;
+
+      bottom:20px; 
+
 
     }
     img#insta{
-      width:50%;
+      width:90px;
       position: absolute;
-    
-      left:25%;
+      bottom:22px;
+      left:100px;
     }
+   div.vr{
+      border-right: 1px solid grey;
+      padding-right: 15px;
+      height: 30px;
+      width: 10px;
+      position: relative;
+      left:59px;
+      top:9px;
+    }
+
     div#ind_image{
       height: 50vh;
       top:15em;
