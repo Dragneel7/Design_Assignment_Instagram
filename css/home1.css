@@ -3,15 +3,13 @@
     display: none; 
 	 }
    
-   @font-face{
-     font-family: font_one;
-    src:url(../font2/OdibeeSans-Regular.otf);
-   }
+ 
      body{
      	margin:0;
      	padding: 0;
      	box-sizing: border-box;
-     	
+     	font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+     
      
      }
 
@@ -167,7 +165,7 @@
   	left:2.5em;
   	margin-left: 6vw;
   	font-weight: bolder;
-    font-family:Tangerine;
+   
   	
   	}
   	div.dots{
@@ -224,7 +222,7 @@
   	 	top:1.9vh;
   	}
   	div.description,div.description1{
-  		font-family: font_one;
+  		
       font-size: 1.2em;
   	}
   	div.description span,div.description1 span{
@@ -246,7 +244,7 @@
   	}
     div.pop{
       font-size: 1.2em;
-      font-family: font_one;
+      
       width: 100%;
       height: 25vh;
       position: fixed;

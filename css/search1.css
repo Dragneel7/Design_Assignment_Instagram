@@ -160,7 +160,16 @@
   		font-family: serif;
   		color:grey; 
   	}
-  	
+  	div.links{
+      font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size: 12px;
+      display: none;
+    }
+    div.copyright{
+      font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size: 12px;
+      display: none;
+    }
 
 }
 @media only screen and (min-width:500px){
@@ -174,6 +183,7 @@
     top:12.2vh;
     height: 90vh;
   }
+
   div.header2{
       width: 100%;
       height: 12.1vh;
@@ -254,6 +264,29 @@
       left:59px;
       top:9px;
     }
+    div.links{
+      display: block;
+    }
+    ul#icon1{
+      display: block;
+      margin-top: 100px;
+      margin-left: 20%;
+      font-weight: bold;
+    }
+    ul#icon2{
+       display: block;
+    
+      margin-left: 22%;
+      font-weight: bold;
+    }
+
+    div.copyright{
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      margin-left: 38%;
+    }
+  
 }
 @media only screen and (min-width: 620px){
 input#search_user{
