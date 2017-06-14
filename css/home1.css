@@ -80,7 +80,7 @@
   	 }
   	 div.content{
   	 	width: 100%;
-  		background-color: #fafafa;
+  	
   	 	height: 85.5%;
   	 	position: fixed;
   	 	top:7.1%;
@@ -89,6 +89,12 @@
       border-top: .5px solid lightgrey;
 
   	 }
+     div#content{
+      background-color: #fafafa;
+     }
+     div.wrapper{
+      background-color: white;
+     }
   	 
   	 img#home{
       
