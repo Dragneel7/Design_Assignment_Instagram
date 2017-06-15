@@ -175,139 +175,151 @@
     }
   	 }
      @media only screen and (min-width: 500px){
-      div.header{
-        display: none;
-      }
-      div.footer{
-        display: none;
-      }
-      div.content{
-        height: 90vh;
-      }
-        div.header2{
+       div.header{
+    display: none;
+  }
+  div.footer{
+    display:none;
+  }
+  div.content{
+    top:12.2vh;
+    height: 90vh;
+  }
+
+  div.header2{
       width: 100%;
-      height: 10.1vh;
+      height: 12.1vh;
       position: fixed;
-      border-top: 1px solid lightgrey;
+      border-bottom: 1px solid lightgrey;
       display: block;
     }
-    div.head_icons{
-      width:40%;
-      height: 10.1vh;
+   
+    img#compass{
+      width: 35px;
+      height: 35px;
+      position: absolute;
+      left:68%;
+      top:20px;
+    }
+    img#love_like{
+     width: 28px;
+      height:23px;
       
       position: absolute;
-      right: 0;
+    left: 78%;
+      top:28px;
+      
+
+     
     }
-    img#compass{
-      width: 5vh;
-      height: auto;
+    img#person_search{
+    width: 28px;
+      height: 28px;
       position: absolute;
-      right: 60%;
+      left:88%;
+      top:28px;
+     
+
     }
-    img#love{
-      width: 7vh;
-      height: auto;
-      position: absolute;
-      bottom:.001em;
-      right:30%;
-    }
-    img#person{
-      width: 5vh;
-      height: auto;
-      position: absolute;
-      bottom: 1em;
-      right: 1em;
-    }
+   
     input#search_user{
-      width:30%;
-      height: 2em;
-      background-color: white;
+      width: 90px;
       position: absolute;
-      top:1.2em;
-      left: 35%;
+      top:30px;
+      left:43%;
+      z-index: -1;
+      background-color: :lightgrey;
     }
     div.heading1{
-      width: 33%;
-    
+      width: 36%;
+      
       position: absolute;
       top:.8em;
       
     }
-    div.logo img{
-      width: 15%;
+    img#logo{
+     width: 30px;
       height: auto;
-      margin-left: 20%;
+      margin-left: 40px;
+      position: relative;
+
+      bottom:20px; 
+
 
     }
     img#insta{
-      width:50%;
+      width:90px;
       position: absolute;
-    
-      left:25%;
+      bottom:22px;
+      left:100px;
     }
-      img#compass{
-      width: 5vh;
-      height: auto;
-      position: absolute;
-      right: 60%;
-    }
-    img#love{
-      width: 7vh;
-      height: auto;
-      position: absolute;
-      top:.1em;
-      
-
-     
-    }
-    img#person{
-      width: 5vh;
-      height: auto;
-      position: absolute;
-      top:1em;
-     
-
+   div.vr{
+      border-right: 1px solid grey;
+      padding-right: 15px;
+      height: 30px;
+      width: 10px;
+      position: relative;
+      left:59px;
+      top:9px;
     }
     div#ind_image button{
       width: 22%;
      }
     
-     div.links{
-      margin-left: 20%;
+     img#loading{
+      margin-bottom: 30px;
      }
+    }
+    @media only screen and (min-width: 620px){
+     input#search_user{
+  width:150px;
+ 
+  left:38%;
+}
+div.header2{
+  border-bottom:1px solid lightgrey;
+}
+div.wrapper{
+  width:800px;
+  
+ margin:auto;
+  position: relative;
+ background-color: white;
+  top:20px;
+  overflow-y:scroll;
+  
+}
+div.gif{
+  margin-top: 50px;
+
+}
+div.content{
+  top:12.3%;
+  background-color:#fafafa;
+}
     }
 
  @media only screen and (min-width: 780px){
-  div.content{
-    top:15vh;
-  }
-  div.wrapper{
-    width: 60%;
-    
-    margin-left: 23%;
-  }
-  div.header2{
-    height: 15vh;
-  }
+ 
   img.img1{
-      width: 30%;
-      height:20vw;
+      width: 250px;
+      height:250px;
       
       position: relative;
       bottom:1em;
       right:6%;
     }
     img.img2{
-      width: 30%;
-      height:20vw;
+      width: 250px;
+      height:250px;
       
       position: relative;
       bottom:1em;
       right: 2%;
     }
     img.img3{
-      width: 30%;
-        height:20vw;
+      width: 250px;
+        height:250px;
       
       position: relative;
       bottom:1em;
@@ -357,14 +369,24 @@
       height: 60vh;
 
     }
-div.links{
-      margin-left: 35%;
-      position: relative;
-      bottom:1em;
-     }
-     div.copyright{
-      position: relative;
-      bottom: 2.5em;
-      margin-left: 45%;
-     }
+div.heading1{
+      position: absolute;
+      left:100px;
+    }
+        img#compass{
+     
+      left:58%;
+      
+    }
+    img#love_like{
+    
+      left:68%;
+
+     
+    }
+    img#person_search{
+   left:78%;
+     
+
+    }
  }
