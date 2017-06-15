@@ -341,14 +341,7 @@
       
       opacity:0.6;
     }
-      hr#hr2{
-      position: relative;
-      right: 12%;
-      width: 120%;
-      top:.6em;
-      
-      opacity:0.6;
-    }
+     
     div.rep{
       position: relative;
       text-align: center;
@@ -495,13 +488,23 @@
       left:59px;
       top:9px;
     }
-
-    div#ind_image{
-      height: 50vh;
-      top:15em;
+    div.heading_image{
+      display: none;
     }
+    div#ind_image{
+      height: 100vh;
+      overflow-y: scroll;
+      width: 85%;
+      margin-left: 7.5%;
+    
+    }
+    div.user_image p{
+    position: absolute;
+    top:25px;
+    left:50px;
+   }
     img#ind_image1{
-      height: 50vh;
+      height: 70vh;
     }
     div#ind_image button{
       width: 20%;
@@ -689,7 +692,34 @@ ul#icon3{
      bottom:36px;
      left:350px;
     }
+ div.user_image{
+      position: absolute;
+      bottom:605px;
+      left:60%;
+    }
+    div.extra_info{
+       position: absolute;
+      top:70px;
+      left:60%;
+    }
+    div#ind_image{
+      height: 100vh;
+      margin-top: 5%;
+      overflow-y: scroll;
+      width: 85%;
+      margin-left: 7.5%;
 
+    
+    }
+    div.user_image p{
+    position: absolute;
+    top:1px; 
+   
+   }
+    img#ind_image1{
+      height:80%;
+      width: 60%;
+    }
 
 }
 
