@@ -258,27 +258,116 @@
   div.load p{
    position: relative;
    top:7px;
-  }  
-       div#ind_image{
-      width: 50%;
-      border:1px solid lightgrey;
-      height: 30vh;
+  } 
+   div.heading_image{
+    font-weight: bolder;
+    margin-left: 40%;
+    margin-top: 10px;
+
+    
+   }
+   div.user_image{
+    font-size: 15px;
+    font-weight: bold;
+    border-top: 1px solid lightgrey;
+    margin-top: 20px;
+   }
+   img#small_me{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 15px;
+    
+   }
+   div.user_image p{
+    position: absolute;
+    top:50px;
+    left:50px;
+   }
+  div.dots{
+    position: absolute;
+    top:60px;
+    margin-left: 95%;
+    cursor: pointer;
+    }   
+   div#ind_image{
+      width: 100%;
+     height: 93vh;
       position: absolute;
-      top:17em;
-      margin-left: 25%;
-      background-color: #ffffe6;
+      border-bottom: 1px solid lightgrey;
+            background-color: #fafafa;
       display: none;
     }
     img#ind_image1{
-      width: 70%;
-      height: 30vh;
 
+      width: 100%;
+      height:55vw;
+      margin-top: 10px;
+      
+    }
+    div.extra_info img{
+      width: 24px;
+      height: 24px;
+
+    }
+    div.extra_info ul{
+    position: relative;
+    left:-26px;
+    }
+    div.extra_info ul li {
+      padding-right: 15px;
+    }
+    div.extra_info p{
+      font-size: 15px;
+      margin-left:15px;
+    }
+     div.pop{
+      font-size: 1.2em;
+      
+      width: 100%;
+      height: 25vh;
+      position: fixed;
+     bottom:0vh;
+      background-color: white;
+      border-top:1px solid black;
+      border-bottom: 1px solid black;
+      display: none;
+    }
+    hr{
+      position: relative;
+      right: 12%;
+      width: 120%;
+      
+      opacity:0.6;
+    }
+      hr#hr2{
+      position: relative;
+      right: 12%;
+      width: 120%;
+      top:.6em;
+      
+      opacity:0.6;
+    }
+    div.rep{
+      position: relative;
+      text-align: center;
+      right: 8%;
+      bottom:.2em;
+      cursor: pointer;
+    }
+   
+     div.cancel{
+      position: relative;
+      left: 35%;
+       top:1em;
+        cursor: pointer;
     }
     div#ind_image button{
       width: 24%;
       background-color: red;
       color: white;
-      
+      display: none;
       position: relative;
       bottom:100%;
       margin-left: 74%;

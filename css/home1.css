@@ -2,7 +2,7 @@
      ::-webkit-scrollbar { 
     display: none; 
 	 }
-   
+ 
  
      body{
      	margin:0;
@@ -130,7 +130,7 @@
   	 	left:63%;
   	 	width: 1.55em;
   	   bottom:.18em;
-  	 	z-index: -1;
+  	 	
   	 }
   	    
   	    img#person{
@@ -311,7 +311,8 @@
      
       top:12vh;
     }
-      div.dots{
+     
+    div#dots{
       display: none;
     }
     div.header2{
@@ -404,6 +405,7 @@
       left:10px; 
     }
       img#loading{
+        margin-bottom: 50px;
       width: 10%;
       height: auto;
       position: relative;
@@ -417,7 +419,10 @@
     margin-left: 15%;
   }
 
-  
+   div.wrapper{
+  width: 600px;
+  margin:auto;
+ }
 }
 @media only screen and (min-width:1000px){
 
@@ -430,10 +435,7 @@
     height: 20px;
     border-radius: 1px;
   }
- div.wrapper{
-  width: 48%;
-  margin-left: 26%;
- }
+
  
  img.pic1{
   height: 400px;
