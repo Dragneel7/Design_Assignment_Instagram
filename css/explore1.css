@@ -34,54 +34,63 @@
   	 	padding-left: 1.5em;
 
   	 }
-  	 img#home{
-  	 	position: absolute;
-  	 	left:1%;
-  	 	top:3em;
-  	 	width: 3em;
-  	 	height: auto;
-  	 		
-  	 	
-  	 }
-  	  img#search{
-  	 	position: absolute;
-  	 	left: 17%;
-  	 	top:3em;
-  	 	width: 3em;
-  	 	height: auto;
-  	 		
-  	 	
-  	 }
-  	   img#camera{
-  	 	position: absolute;
-  	 	left: 35%;
-  	 	top:3em;
-  	 	width: 2.5em;
-  	 	height: auto;
+  	  img#home{
+      
+      position: absolute;
+      
+      bottom:.3em;
+      width: 26px;
+      height:26px;
+        top:22px;
+      left:-100px;  
+      margin-left: 25%;
+     }
+      img#search{
+      position: absolute;
+      left:-100px;  
+      margin-left: 45%;
+       bottom:.5em;
+      width: 25px;
+      height:25px;
+    
+        
+      
+     }
+       img#camera{
+      position: absolute;
+       left:-100px;  
+      margin-left: 67%;
+     bottom:.6em;
+      width: 26px;
+      height: 25px;
+     
 
 
-  	 	
-  	 } 
-  	 img#love{
-  	 	position: relative;
-  	 	left:48%;
-  	 	width: 3em;
-  	 	top:1.3em;
-  	 	z-index: -1;
-  	 }
-  	    
-  	    img#person{
-  	 	position: absolute;
-  	 	left:72%;
-  	 	top:3em;
-  	 	width: 2.5em;
-  	 	height: auto;
+      
+     } 
+     img#love{
+      position: relative;
+      top:8px;
+       left:-100px;  
+      margin-left: 90%;
+      width: 1.55em;
+      
+      
+     }
+        
+        img#person{
+      position: absolute;
+       left:-100px;  
+      margin-left: 110%;
+       bottom:.45em;
+      width: 1.65em;
+      height: auto;
 
-  	 }
+     }
   	 div.header{
   	 	width: 100%;
   	 	border-bottom:1px solid lightgrey;
-  	 	height: 15vw;
+  	 	height: 7%;
   	 	position: fixed;
   	 }
      div.header2{
@@ -92,15 +101,15 @@
   	 	width:80%;
   	 	height: 5vw;
   	 	margin-left:10%;
-  	 	margin-top: 1.2em;
+  	 	margin-top: .9em;
   	 	background: url(../images/search_insta.png) no-repeat #fff;
     	
   	 }
   	div.content{
   		width: 100%;
   		border-bottom: 1px solid lightgrey;
-  		top:10vh;
-  		height:78.5vh;
+  		top:7.3%;
+  		height:85.5vh;
   		position: fixed;
   		overflow-y: scroll;
   		background-color: #ffffe6;
@@ -156,19 +165,14 @@
       margin-left: 76%;
       cursor: pointer;
     }
-    div.links{
-      position: relative;
-
-      font-size: 1.2em;
-      
+    div.gif{
+      margin:auto;
+      margin-left: 45%;
     }
-    div.links li{
-      padding-left: .5em;
+  	img#loading{
+      width: 24px;
+      height: 24px;
     }
-    div.copyright{
-      margin-left: 36%;
-    }
-  	
   	 }
      @media only screen and (min-width: 500px){
       div.header{
