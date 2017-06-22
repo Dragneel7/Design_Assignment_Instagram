@@ -3,6 +3,8 @@ function fun(id){
 	var x = document.getElementById(id).src;
 	document.getElementById('ind_image').style.display="block";
 	document.getElementById('ind_image1').src=x;
+	document.getElementById('content').style.filter="brightness(60%)";
+	document.getElementById('content').style.overflow="hidden";
 }
 console.log("hello");
 function close1(){
@@ -13,6 +15,8 @@ function fun3(){
 	console.log("yes");
 	document.getElementById('pop').style.display="block";
 	document.getElementById('dots').style.display="none";
+	
+
 }
 function close2(){
 	document.getElementById('pop').style.display="none";

@@ -2,8 +2,10 @@
 	::-webkit-scrollbar { 
     display: none; 
 	 }
-     
-     body{
+   div#overlay{
+    display: hidden;
+   }
+ body{
       margin:0;
       padding: 0;
       box-sizing: border-box;
@@ -13,6 +15,8 @@
      }
      div.header2{
       display: none;
+
+
      }
      a{
      	text-decoration: none;
@@ -393,6 +397,23 @@
    
 }
 @media only screen and  (min-width: 500px){
+
+      div#overlay{
+        display: block;  
+        position: fixed;
+    
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 5;
+      }
+
+
+
       div.header{
       display: none;
      }
@@ -694,7 +715,7 @@ ul#icon3{
     }
  div.user_image{
       position: absolute;
-      bottom:605px;
+      bottom:465px;
       left:60%;
     }
     div.extra_info{
@@ -703,9 +724,9 @@ ul#icon3{
       left:60%;
     }
     div#ind_image{
-      height: 100vh;
-      margin-top: 5%;
-      overflow-y: scroll;
+      height: 80vh;
+      margin-top: 8%;
+      overflow-y:hidden;
       width: 85%;
       margin-left: 7.5%;
 
@@ -717,7 +738,7 @@ ul#icon3{
    
    }
     img#ind_image1{
-      height:80%;
+      height:100%;
       width: 60%;
     }
 
