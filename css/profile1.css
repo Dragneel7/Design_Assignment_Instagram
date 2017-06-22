@@ -5,7 +5,7 @@
       div#overlay{
         display: none;  
         position: fixed;
-        color:white;
+       
         width: 100%;
         height: 100%;
         top: 0;
@@ -284,7 +284,7 @@
    div.user_image{
     font-size: 15px;
     font-weight: bold;
-    border-top: 1px solid lightgrey;
+
     margin-top: 20px;
    }
    img#small_me{
@@ -297,6 +297,7 @@
    }
    div.user_image p{
     position: absolute;
+    z-index: 10;
     top:50px;
     left:50px;
    }
@@ -317,7 +318,7 @@
     img#ind_image1{
 
       width: 100%;
-      height:55vw;
+      height:30vh;
       margin-top: 10px;
       
     }
@@ -371,16 +372,7 @@
        top:1em;
         cursor: pointer;
     }
-    div#ind_image button{
-      width: 24%;
-      background-color: red;
-      color: white;
-      display: none;
-      position: relative;
-      bottom:100%;
-      margin-left: 74%;
-      cursor: pointer;
-    }
+   
     div.stats ul{
       margin-left: 40%;
     }
@@ -409,7 +401,7 @@
 }
 @media only screen and  (min-width: 500px){
 
-   
+    
 
 
       div.header{
@@ -736,8 +728,9 @@ ul#icon3{
    
    }
     img#ind_image1{
-      height:100%;
+      height:80vh;
       width: 60%;
+
     }
 
 }
