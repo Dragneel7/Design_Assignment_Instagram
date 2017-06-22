@@ -1,10 +1,9 @@
 function fun(id){
-	
+	document.getElementById('overlay').style.display="block";
 	var x = document.getElementById(id).src;
 	document.getElementById('ind_image').style.display="block";
 	document.getElementById('ind_image1').src=x;
-	document.getElementById('content').style.filter="brightness(60%)";
-	document.getElementById('content').style.overflow="hidden";
+	document.getElementById('footer').style.zIndex="6";
 }
 console.log("hello");
 function close1(){
