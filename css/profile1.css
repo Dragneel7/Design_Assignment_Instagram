@@ -450,25 +450,28 @@
       width: 35px;
       height: 35px;
       position: absolute;
-      left:68%;
+      margin-left:65%;
       top:20px;
     }
-    img#love{
+    img#love1{
      width: 28px;
       height:23px;
       
       position: absolute;
-     left:-58px;
+      margin-left:65%;
+      left:90px;
    
-      top:28px;
+      top:27px;
       
 
      
     }
-    img#person{
+    img#person1{
     width: 28px;
       height: 28px;
      position: absolute;
+     margin-left: 65%;
+     left:140px;
      top:27px;
      
 
