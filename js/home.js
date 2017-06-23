@@ -27,10 +27,13 @@ function fun2(y){
 }
 function fun3(){
 	console.log("yes");
+	document.getElementById('overlay').style.display="block"
 	document.getElementById('pop').style.display="block";
 	document.getElementById('dots').style.display="none";
+	
 }
 function close1(){
 	document.getElementById('pop').style.display="none";
-		document.getElementById('dots').style.display="block";
+	document.getElementById('dots').style.display="block";
+	document.getElementById('overlay').style.display="none"
 }
