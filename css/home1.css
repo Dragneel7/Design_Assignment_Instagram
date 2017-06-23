@@ -306,6 +306,7 @@
       left:40%;
     }
 
+
  }
  
  @media only screen and (min-width:500px){
@@ -421,12 +422,13 @@
       width: 10%;
       height: auto;
       position: relative;
-        top:60vh;
+        top:5vh;
       left:40%;
     }
 
  }
 @media only screen and (min-width:750px){
+ 
   div.heading1{
     margin-left: 15%;
   }
@@ -435,11 +437,16 @@
   width: 600px;
   margin:auto;
  }
+div.extra2{
+  position: absolute;
+ 
+  top:430px;
+ }
 }
 @media only screen and (min-width:1000px){
 
   img#loading{
-    display: none;
+    margin-bottom: 50px;
   }
   input#search_user{
     width: 200px;
@@ -465,25 +472,19 @@
   div.heading1{
     margin-left: 1%;
   }
- div.extra2{
-  position: absolute;
  
-  top:430px;
- }
- div.post2_2{
-  
-   position: relative;
-  bottom:20em;
- }
+
  div.post2{
   border:1px solid lightgrey;
   position: relative;
-  top:55vh;
-    height: 110vh;
+  top:10vh;
+    height:auto;
+    margin-bottom: 100px;
  }
   div.post1{
   border:1px solid lightgrey;
-  height: 110vh;
+  height: auto;
+  margin-top: 50px;
  }
  div.gif{
   position: relative;
