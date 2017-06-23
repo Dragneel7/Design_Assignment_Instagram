@@ -646,13 +646,7 @@
         left:-15px;
         margin-left: 38%;
       }
-      img#love{
-   
-        left: -100px;
-      }
-      img#person{
-        /*im unable to move this image and i dont know the reason */
-      }
+     
       img.img1{
       width: 30%;
       height:30vw;
@@ -708,9 +702,7 @@ div.icon3{
 div.stats ul{
   left:-65px;
 }
-img#person{
- /*still unable to move this image*/
-}
+
 ul#icons1,ul#icons2{
   display: none;
 }
@@ -758,6 +750,17 @@ ul#icon3{
       top:-72px;
 
     }
+    input#search_user{
+      margin-left: 65%;
+      position: relative;
+      left:-300px;
+    }
+   div.logo1{
+    position: absolute;
+    margin-left: 65%;
+    left: -100px;
+
+   }
 
 }
 
