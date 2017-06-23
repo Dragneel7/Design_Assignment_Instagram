@@ -422,7 +422,7 @@
       width: 10%;
       height: auto;
       position: relative;
-        top:5vh;
+        top:55vh;
       left:40%;
     }
 
@@ -446,6 +446,8 @@ div.extra2{
 @media only screen and (min-width:1000px){
 
   img#loading{
+    position: relative;
+    top:2vh;
     margin-bottom: 50px;
   }
   input#search_user{
