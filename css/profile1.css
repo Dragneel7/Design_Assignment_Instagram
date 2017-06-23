@@ -692,6 +692,7 @@
 }
 
 @media only screen and  (min-width: 1000px){
+ 
 div.wrapper{
   width:80%;
   margin-left: 10%;
@@ -721,21 +722,24 @@ ul#icon3{
      left:350px;
     }
  div.user_image{
-      position: absolute;
-      bottom:465px;
-      left:60%;
+      position: relative;
+      bottom:15px;
+      left:65%;
     }
     div.extra_info{
        position: absolute;
-      top:70px;
-      left:60%;
+      top:450px;
+      left:65%;
     }
     div#ind_image{
-      height: 80vh;
-      margin-top: 8%;
-      overflow-y:hidden;
-      width: 85%;
-      margin-left: 7.5%;
+      height: 600px;
+      overflow-y: hidden;
+      width: 935px;
+     position: relative;
+     top:37px;
+     left:-450px;
+
+      margin-left: 50%;
 
     
     }
@@ -745,8 +749,10 @@ ul#icon3{
    
    }
     img#ind_image1{
-      height:80vh;
-      width: 60%;
+      height:600px;
+      width: 600px;
+      position:relative;
+      top:-72px;
 
     }
 
