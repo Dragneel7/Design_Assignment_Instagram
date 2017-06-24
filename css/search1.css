@@ -122,6 +122,7 @@
   		height: auto;
   		border-radius: 50%;
   		position: relative;
+      bottom:7px;
   		right: 6em;
   	}
   	li.name{
