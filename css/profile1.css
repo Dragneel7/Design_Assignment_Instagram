@@ -418,11 +418,16 @@
       display:none;
     }
 
-   
+   img#like2{
+      width: 35px ;
+      height: 35px;
+      position: relative;
+      top:5px;
+    }  
 }
 @media only screen and  (min-width: 500px){
 
-    
+      
 
 
       div.header{
