@@ -196,7 +196,7 @@
       width: 35px;
       height: 35px;
       position: absolute;
-      left:68%;
+      margin-left:65%;
       top:20px;
     }
     img#love_like{
@@ -204,8 +204,9 @@
       height:23px;
       
       position: absolute;
-    left: 78%;
-      top:28px;
+    margin-left: 65%;
+    left:90px;
+      top:27px;
       
 
      
@@ -214,7 +215,8 @@
     width: 28px;
       height: 28px;
       position: absolute;
-      left:88%;
+      margin-left:65%;
+      left:135px;
       top:28px;
      
 
@@ -291,8 +293,8 @@
 @media only screen and (min-width: 620px){
 input#search_user{
   width:150px;
- 
-  left:38%;
+ left:-300px;
+  margin-left:65%;
 }
 div.header2{
   border-bottom:1px solid lightgrey;
@@ -311,6 +313,11 @@ div.content{
   top:12.3%;
   background-color:#fafafa;
 }
+div.logo{
+  position: relative;
+  margin-left: 65%;
+  left:-200px;
+}
 }
 @media only screen and (min-width:1000px){
  
@@ -318,20 +325,5 @@ div.content{
       position: absolute;
       left:100px;
     }
-        img#compass{
-     
-      left:58%;
       
-    }
-    img#love_like{
-    
-      left:68%;
-
-     
-    }
-    img#person_search{
-   left:78%;
-     
-
-    }
   }
