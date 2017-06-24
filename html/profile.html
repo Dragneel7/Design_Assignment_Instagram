@@ -18,6 +18,22 @@
 						}
 					}
 			});
+			var lastScrollTop = 0, delta = 5;
+			$('#content').scroll(function(event){
+				  var st = $(this).scrollTop();
+				
+  					 if(Math.abs(lastScrollTop - st) <= delta)
+      						return;
+
+   					if (st > lastScrollTop){
+      					$('.header2').slideUp('slow');
+     
+   					} else {
+    					 $('.header2').slideDown('slow');
+     
+   					}
+   					lastScrollTop = st;
+			});
 		});
 	</script>
 
