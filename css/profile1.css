@@ -427,7 +427,7 @@
 }
 @media only screen and  (min-width: 500px){
 
-      
+
 
 
       div.header{
@@ -486,13 +486,24 @@
 
     }
     input#search_user{
+      height: 28px;
+      display: block;
       width: 90px;
       position: absolute;
-      top:30px;
+      top:25px;
       left:43%;
       z-index: -1;
       background-color: :lightgrey;
+      border: solid 1px #dbdbdb;
+      font-size: 14px;
+      line-height: 18px;
     }
+
+    ::-webkit-input-placeholder{
+     
+      text-align: center;
+    }
+
      img.img1:hover,img.img2:hover,img.img3:hover{
       filter: brightness(60%);
     }
@@ -606,9 +617,9 @@
 }
 @media only screen and  (min-width: 600px){
   input#search_user{
-    width: 150px;
+    width: 215px;
     left:0px;
-    margin-left: 35%;
+    margin-left: 33%;
   }
 }
 
@@ -771,7 +782,7 @@ ul#icon3{
     input#search_user{
       margin-left: 65%;
       position: relative;
-      left:-300px;
+      left:-330px;
     }
    div.logo1{
     position: absolute;
