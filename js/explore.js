@@ -23,3 +23,6 @@ function close2(){
 	document.getElementById('pop1').style.display="none";
 		document.getElementById('dots').style.display="block";
 }
+function close3(){
+	document.getElementById('overlay').style.display="none";
+}

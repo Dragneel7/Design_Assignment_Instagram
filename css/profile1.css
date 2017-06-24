@@ -414,6 +414,10 @@
     ul#icon3{
       display: none;
     }
+    img#close{
+      display:none;
+    }
+
    
 }
 @media only screen and  (min-width: 500px){
@@ -584,6 +588,15 @@
       font-size: 13px;
       color: grey;
       font-weight: bolder;
+    }
+    img#close{
+      display: block;
+      width: 24px;
+      height: 24px;
+     position: fixed;
+     right: 5px;
+     top:5px;
+     cursor: pointer;
     }
 }
 @media only screen and  (min-width: 600px){
