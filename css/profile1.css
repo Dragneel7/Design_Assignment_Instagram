@@ -140,6 +140,8 @@
       height: 7%;
       border-bottom: 1px solid lightgrey;
       position: fixed;
+      background-color: white;
+      z-index:3;
      }
      div.icon{
       width: 26px;
@@ -208,8 +210,12 @@
       border-bottom: 1px solid lightgrey;
      overflow-y: scroll;
       position: fixed;
-      top:7.1vh;
-      height: 85.5vh;
+     
+      height: 95vh;
+     }
+     div.wrapper{
+      position: relative;
+      top:30px;
      }
      p#caption{
       position: relative;
@@ -465,10 +471,13 @@
       div.content{
       width: 100%;
       background-color: #fafafa;
-      height: 90vh;
+      height: 100vh;
       position: fixed;
      
-      top:12.4vh;
+      
+    }
+    div.wrapper{
+        top:80px;
     }
       div.dots{
       display: none;
@@ -476,8 +485,10 @@
      div.header2{
       width: 100%;
       height: 12.1vh;
+      z-index: 3;
       position: fixed;
       border-bottom: 1px solid lightgrey;
+      background-color: white;
       display: block;
     }
    
