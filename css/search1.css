@@ -61,8 +61,8 @@
      }
       img#search{
       position: absolute;
-      left:-100px;  
-      margin-left: 45%;
+      left:-40px;  
+      margin-left: 25%;
        bottom:.5em;
       width: 25px;
       height:25px;
@@ -72,8 +72,8 @@
      }
        img#camera{
       position: absolute;
-       left:-100px;  
-      margin-left: 67%;
+       left:30px;  
+      margin-left: 25%;
      bottom:.6em;
       width: 26px;
       height: 25px;
@@ -85,8 +85,8 @@
      img#love{
       position: relative;
       top:8px;
-       left:-100px;  
-      margin-left: 90%;
+       left:80px;  
+      margin-left: 25%;
       width: 1.55em;
       
       
@@ -94,8 +94,8 @@
         
         img#person{
       position: absolute;
-       left:-100px;  
-      margin-left: 110%;
+       left:190px;  
+      margin-left: 25%;
        bottom:.45em;
       width: 1.65em;
       height: auto;
@@ -106,6 +106,8 @@
   	 	border-bottom:1px solid lightgrey;
   	 	height: 7%;
   	 	position: fixed;
+      z-index:4;
+      background-color: white;
   	 }
   	  div.header2{
       display:none;
@@ -122,13 +124,17 @@
   	 	div.content{
   		width: 100%;
   		border-bottom: 1px solid lightgrey;
-  		top:7vh;
-  		height:85.5vh;
+  	
+  		height:92.5vh;
   		
   		position: fixed;
   		overflow-y: scroll;
 
   	}
+    div.wrapper{
+      position: absolute;
+      top:6vh;
+    }
   	img.user_pic{
   		width:70px;
   		height: auto;
@@ -208,8 +214,8 @@
     display:none;
   }
   div.content{
-    top:12.2vh;
-    height: 90vh;
+   
+    height: 100vh;
   }
 
   div.header2{
@@ -218,6 +224,12 @@
       position: fixed;
       border-bottom: 1px solid lightgrey;
       display: block;
+      background-color: white;
+      z-index: 4;
+    }
+    div.wrapper{
+      top:10vh;
+      width: 100%;
     }
    
     img#compass{
@@ -333,12 +345,12 @@ div.wrapper{
  margin:auto;
   position: relative;
  background-color: white;
-  top:20px;
+  top:100px;
   overflow-y:scroll;
   
 }
 div.content{
-  top:12.3%;
+ 
   background-color:#fafafa;
 }
 div.logo{
