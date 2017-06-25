@@ -44,7 +44,9 @@
      div.header{
      	width: 100%;
      	height: 7%;
-      
+      background-color: white;
+      z-index: 3;
+      border-bottom:.5px solid lightgrey;
      	position: fixed;
 
      }
@@ -94,14 +96,18 @@
   	 div.content{
   	 	width: 100%;
   	
-  	 	height: 85.5%;
+  	 	height: 92%;
   	 	position: fixed;
-  	 	top:7.1%;
+  	 	
   	 	overflow-y: scroll;
       border-bottom: 1px solid lightgrey;
-      border-top: .5px solid lightgrey;
+     
 
   	 }
+     div.wrapper{
+      position: relative;
+      top:40px;
+     }
      div#content{
       background-color: #fafafa;
      }
@@ -345,10 +351,13 @@
       div.content{
       width: 100%;
       background-color: #ffffe6;
-      height: 90vh;
+      height: 100vh;
       position: fixed;
      
-      top:12vh;
+      
+    }
+    div.wrapper{
+      top:100px;
     }
      
     div#dots{
@@ -360,6 +369,8 @@
       position: fixed;
       border-top: 1px solid lightgrey;
       display: block;
+      background-color: white;
+      z-index: 3;
     }
    
     img#compass{
