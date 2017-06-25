@@ -35,50 +35,37 @@
 			
 		
 	</script>
-	<!--<script >
+	<script >
 		$(document).ready(function(){
-			window.onresize= function(){
+			
 
-				if( $(window).width()>500){
-					var lastScrollTop = 0, delta = 5;
+				
+			var lastScrollTop = 0, delta = 5;
 			$('#content').scroll(function(event){
+				
+				var y = $(window).width()>500?'.header2':'.header';
+
 				  var st = $(this).scrollTop();
 				
   					 if(Math.abs(lastScrollTop - st) <= delta)
       						return;
 
    					if (st > lastScrollTop){
-      					$('.header2').slideUp('slow');
+      					$(y).slideUp('slow');
      
    					} else {
-    					 $('.header2').slideDown('slow');
+    					 $(y).slideDown('slow');
      
    					}
    					lastScrollTop = st;
+   				
+   			
 			});
-				}
-			else if( $(window).width()<500){
-					var lastScrollTop = 0, delta = 5;
-			$('#content').scroll(function(event){
-				  var st = $(this).scrollTop();
-				
-  					 if(Math.abs(lastScrollTop - st) <= delta)
-      						return;
-
-   					if (st > lastScrollTop){
-      					$('.header').slideUp('slow');
-     
-   					} else {
-    					 $('.header').slideDown('slow');
-     
-   					}
-   					lastScrollTop = st;
-			});
-				}
-
-			}
+			
+		
+			
 		});
-	</script>-->
+	</script>
 
 </head>
 <body>
@@ -107,7 +94,7 @@
 
 </div>
 
-<div class="header2">
+<div class="header2" >
 	<div class="heading1">
 		<a href="home.html">
 		<div class="logo">
@@ -143,7 +130,7 @@
 </div>
 
 
-<div class="content" id="content">
+<div class="content" id="content" onscroll="hide_header()">
  <div class="wrapper" id="wrapper">	
  <div class="post1">
 	<div class="title">

@@ -2,6 +2,9 @@
      ::-webkit-scrollbar { 
     display: none; 
 	 }
+   div.vr{
+    display: none;
+   }
     div#overlay{
         display: none;  
         position: fixed;
@@ -305,11 +308,34 @@
         top:40vh;
       left:40%;
     }
-
+    input#search_user{
+      display: none;
+    }
+    div.logo{
+      display: none;
+    }
+    div.head_icons{
+      display: none;
+    }
 
  }
  
  @media only screen and (min-width:500px){
+    div.heading{
+      display: none;
+    }
+    div.icon{
+      display: none;
+    }
+    div.head_icons{
+      display:block;
+    }
+    div.logo{
+      display:block;
+    }
+     div.vr{
+    display: block;
+   }
      div.header{
       display: none;
      }
@@ -365,6 +391,7 @@
 
     }
     input#search_user{
+      display: block;
       width: 90px;
       position: absolute;
       top:30px;
