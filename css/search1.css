@@ -2,6 +2,18 @@
 	 	::-webkit-scrollbar { 
     display: none; 
 	 }
+    div.vr{
+    display: none;
+   }
+     input#search_user{
+      display: none;
+    }
+    div.logo{
+      display: none;
+    }
+    div.head_icons{
+      display: none;
+    }
      body{
      	margin:0;
      	padding: 0;
@@ -174,6 +186,21 @@
 
 }
 @media only screen and (min-width:500px){
+   div.vr{
+    display: block;
+   }
+     input#search_user{
+      display: block;
+    }
+    div.logo{
+      display: block;
+    }
+    div.head_icons{
+      display: block;
+    }
+  input#mysearch{
+    display: none;
+  }
   div.header{
     display: none;
   }

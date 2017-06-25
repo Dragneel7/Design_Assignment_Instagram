@@ -6,6 +6,37 @@
 	<link rel="shortcut icon" href="https://www.instagram.com/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script >
+		$(document).ready(function(){
+			
+			
+				
+			var lastScrollTop = 0, delta = 5;
+			$('.content').scroll(function(event){
+				
+				var y = $(window).width()>500?'.header2':'.header';
+
+				  var st = $(this).scrollTop();
+				
+  					 if(Math.abs(lastScrollTop - st) <= delta)
+      						return;
+
+   					if (st > lastScrollTop){
+      					$(y).slideUp('slow');
+     
+   					} else {
+    					 $(y).slideDown('slow');
+     
+   					}
+   					lastScrollTop = st;
+   				
+   			
+			});
+			
+		
+			
+		});
+	</script>
 
 </head>
 <body>

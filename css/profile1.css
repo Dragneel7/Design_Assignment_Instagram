@@ -2,6 +2,18 @@
 	::-webkit-scrollbar { 
     display: none; 
 	 }
+    div.vr{
+    display: none;
+   }
+     input#search_user{
+      display: none;
+    }
+    div.logo{
+      display: none;
+    }
+    div.head_icons{
+      display: none;
+    }
       div#overlay{
         display: none;  
         position: fixed;
@@ -428,7 +440,21 @@
 @media only screen and  (min-width: 500px){
 
 
-
+   div.heading{
+      display: none;
+    }
+    div.icon{
+      display: none;
+    }
+    div.head_icons{
+      display:block;
+    }
+    div.logo{
+      display:block;
+    }
+     div.vr{
+    display: block;
+   }
 
       div.header{
       display: none;
