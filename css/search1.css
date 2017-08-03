@@ -1,369 +1,321 @@
 @media only screen and (min-width:200px){
-	 	::-webkit-scrollbar { 
-    display: none; 
-	 }
-    div.vr{
-    display: none;
-   }
-     input#search_user{
-      display: none;
-    }
-    div.logo{
-      display: none;
-    }
-    div.head_icons{
-      display: none;
-    }
-     body{
-     	margin:0;
-     	padding: 0;
-     	box-sizing: border-box;
-     	font-family: Tangerine;
-     	
-     }
-     a{
-     	cursor:pointer;
-     	text-decoration: none;
-     	color: black;
-
-     }
-      div.footer{
-     	 box-shadow:  black;
-     	width: 100%;
-
-     	position: fixed;
-     	bottom: 0;
-     
-     }
-     ul.foot_icons{
-     	list-style-type: none;
-     }
-     li{
-     	display: inline;
-
-
-  	 }img.nav_icons{
-  	 	width: 2em;
-  	 	height: auto;
-  	 	padding-left: 1.5em;
-
-  	 }
-  	  img#home{
-      
-      position: absolute;
-      
-      bottom:.3em;
-      width: 26px;
-      height:26px;
-        top:22px;
-      left:-100px;  
-      margin-left: 25%;
-     }
-      img#search{
-      position: absolute;
-      left:-40px;  
-      margin-left: 25%;
-       bottom:.5em;
-      width: 25px;
-      height:25px;
-    
-        
-      
-     }
-       img#camera{
-      position: absolute;
-       left:30px;  
-      margin-left: 25%;    
-     bottom:.6em;
-      width: 26px;
-      height: 25px;
-     
-
-
-      
-     } 
-     img#love{
-      position: relative;
-      top:8px;
-       left:80px;  
-      margin-left: 25%;
-      width: 1.55em;
-      
-      
-     }
-        
-        img#person{
-      position: absolute;
-       left:190px;  
-      margin-left: 25%;
-       bottom:.45em;
-      width: 1.65em;
-      height: auto;
-
-     }
-  	 div.header{
-  	 	width: 100%;
-  	 	border-bottom:1px solid lightgrey;
-  	 	height: 7%;
-  	 	position: fixed;
-      z-index:4;
-      background-color: white;
-  	 }
-  	  div.header2{
-      display:none;
-
-     }
-  	 input#mysearch{
-  	 	width:80%;
-  	 	height: 5vw;
-  	 	margin-left:10%;
-  	 	margin-top: .9em;
-  	 	background: url(../images/search_insta.png) no-repeat #fff;
-    	
-  	 }
-  	 	div.content{
-  		width: 100%;
-  		border-bottom: 1px solid lightgrey;
-  	
-  		height:92.5vh;
-  		
-  		position: fixed;
-  		overflow-y: scroll;
-
-  	}
-    div.wrapper{
-      position: absolute;
-      top:6vh;
-    }
-  	img.user_pic{
-  		width:70px;
-  		height: auto;
-  		border-radius: 50%;
-  		position: relative;
-      bottom:7px;
-  		right: 6em;
-  	}
-  	li.name{
-  		position: relative;
-  		right: 4.5em;
-  		bottom: 2em;
-  		font-size: 1.2em;
-  	}
-  	li.username{
-  		position: relative;
-  		right: 9.3em;
-  		bottom:1em;
-  		font-family: sans-serif;
-  	}
-  	div.user{
-  		position: relative;
-  		top:4em;
-  		margin-left: 8%;
-  	}
-  	button.follow{
-  		position: relative;
-  		
-  		bottom:4em;
-  		margin-left: 75%;
-  		height: 2em;
-  		background-color: #3897F0;
-  		color: white;
-  	}
-  	li.users{
-  		display: list-item;
-  	}
-  	li#tag{
-  		position: relative;
-  		top:2em;
-  		right: 1.4em;
-  		font-family: serif;
-  		color:grey; 
-  	}
-  	div.links{
-      font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-      font-size: 12px;
-      display: none;
-    }
-    div.copyright{
-      font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-      font-size: 12px;
-      display: none;
-    }
-
+ ::-webkit-scrollbar { 
+  display: none; 
 }
-@media only screen and (min-width:500px){
-   div.vr{
-    display: block;
-   }
-     input#search_user{
-      display: block;
-    }
-    div.logo{
-      display: block;
-    }
-    div.head_icons{
-      display: block;
-    }
-  input#mysearch{
-    display: none;
-  }
-  div.header{
-    display: none;
-  }
-  div.footer{
-    display:none;
-  }
-  div.content{
-   
-    height: 100vh;
-  }
-
-  div.header2{
-      width: 100%;
-      height: 12.1vh;
-      position: fixed;
-      border-bottom: 1px solid lightgrey;
-      display: block;
-      background-color: white;
-      z-index: 4;
-    }
-    div.wrapper{
-      top:10vh;
-      width: 100%;
-    }
-   
-    img#compass{
-      width: 35px;
-      height: 35px;
-      position: absolute;
-      margin-left:65%;
-      top:20px;
-    }
-    img#love_like{
-     width: 28px;
-      height:23px;
-      
-      position: absolute;
-    margin-left: 65%;
-    left:90px;
-      top:27px;
-      
-
-     
-    }
-    img#person_search{
-    width: 28px;
-      height: 28px;
-      position: absolute;
-      margin-left:65%;
-      left:135px;
-      top:28px;
-     
-
-    }
-    img.person{
-      position: relative;
-      right: 100px;
-    }
-
-    input#search_user{
-      width: 90px;
-      position: absolute;
-      top:30px;
-      left:43%;
-      z-index: -1;
-      background-color: :lightgrey;
-    }
-    div.heading1{
-      width: 36%;
-      
-      position: absolute;
-      top:.8em;
-      
-    }
-    img#logo{
-     width: 30px;
-      height: auto;
-      margin-left: 40px;
-      position: relative;
-
-      bottom:20px; 
-
-
-    }
-    img#insta{
-      width:90px;
-      position: absolute;
-      bottom:22px;
-      left:100px;
-    }
-   div.vr{
-      border-right: 1px solid grey;
-      padding-right: 15px;
-      height: 30px;
-      width: 10px;
-      position: relative;
-      left:59px;
-      top:9px;
-    }
-    div.links{
-      display: block;
-    }
-    ul#icon1{
-      display: block;
-      margin-top: 100px;
-      margin-left: 20%;
-      font-weight: bold;
-    }
-    ul#icon2{
-       display: block;
-    
-      margin-left: 22%;
-      font-weight: bold;
-    }
-
-    div.copyright{
-      display: block;
-      margin-top: 10px;
-      margin-bottom: 20px;
-      margin-left: 38%;
-    }
-  
+div.vr{
+  display: none;
 }
-@media only screen and (min-width: 620px){
 input#search_user{
-  width:150px;
- left:-300px;
-  margin-left:65%;
-}
-div.header2{
-  border-bottom:1px solid lightgrey;
-}
-div.wrapper{
-  width:600px;
-  border:1px solid lightgrey;
- margin:auto;
-  position: relative;
- background-color: white;
-  top:100px;
-  overflow-y:scroll;
-  
-}
-div.content{
- 
-  background-color:#fafafa;
+  display: none;
 }
 div.logo{
-  position: relative;
-  margin-left: 65%;
-  left:-200px;
+  display: none;
 }
+div.head_icons{
+  display: none;
+}
+body{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tangerine;
+}
+a{
+  cursor:pointer;
+  text-decoration: none;
+  color: black;
+}
+div.footer{
+ box-shadow:  black;
+ width: 100%;
+ position: fixed;
+ bottom: 0;
+}
+ul.foot_icons{
+  list-style-type: none;
+}
+li{
+  display: inline;
+  }img.nav_icons{
+   width: 2em;
+   height: auto;
+   padding-left: 1.5em;
+ }
+ img#home{
+  position: absolute;
+  bottom:.3em;
+  width: 26px;
+  height:26px;
+  top:22px;
+  left:-100px;  
+  margin-left: 25%;
+}
+img#search{
+  position: absolute;
+  left:-40px;  
+  margin-left: 25%;
+  bottom:.5em;
+  width: 25px;
+  height:25px;
+}
+img#camera{
+  position: absolute;
+  left:30px;  
+  margin-left: 25%;    
+  bottom:.6em;
+  width: 26px;
+  height: 25px;
+} 
+img#love{
+  position: relative;
+  top:8px;
+  left:80px;  
+  margin-left: 25%;
+  width: 1.55em;
+}
+img#person{
+  position: absolute;
+  left:190px;  
+  margin-left: 25%;
+  bottom:.45em;
+  width: 1.65em;
+  height: auto;
+}
+div.header{
+ width: 100%;
+ border-bottom:1px solid lightgrey;
+ height: 7%;
+ position: fixed;
+ z-index:4;
+ background-color: white;
+}
+div.header2{
+  display:none;
+}
+input#mysearch{
+ width:80%;
+ height: 5vw;
+ margin-left:10%;
+ margin-top: .9em;
+ background: url(../images/search_insta.png) no-repeat #fff;
+}
+div.content{
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+  height:92.5vh;
+  position: fixed;
+  overflow-y: scroll;
+}
+div.wrapper{
+  position: absolute;
+  top:6vh;
+}
+img.user_pic{
+  width:70px;
+  height: auto;
+  border-radius: 50%;
+  position: relative;
+  bottom:7px;
+  right: 6em;
+}
+li.name{
+  position: relative;
+  right: 4.5em;
+  bottom: 2em;
+  font-size: 1.2em;
+}
+li.username{
+  position: relative;
+  right: 9.3em;
+  bottom:1em;
+  font-family: sans-serif;
+}
+div.user{
+  position: relative;
+  top:4em;
+  margin-left: 8%;
+}
+button.follow{
+  position: relative;
+  bottom:4em;
+  margin-left: 75%;
+  height: 2em;
+  background-color: #3897F0;
+  color: white;
+}
+li.users{
+  display: list-item;
+}
+li#tag{
+  position: relative;
+  top:2em;
+  right: 1.4em;
+  font-family: serif;
+  color:grey; 
+}
+div.links{
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  display: none;
+}
+div.copyright{
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  display: none;
+}
+}
+@media only screen and (min-width:500px){
+ div.vr{
+  display: block;
+}
+input#search_user{
+  display: block;
+}
+div.logo{
+  display: block;
+}
+div.head_icons{
+  display: block;
+}
+input#mysearch{
+  display: none;
+}
+div.header{
+  display: none;
+}
+div.footer{
+  display:none;
+}
+div.content{
+  height: 100vh;
+}
+div.header2{
+  width: 100%;
+  height: 12.1vh;
+  position: fixed;
+  border-bottom: 1px solid lightgrey;
+  display: block;
+  background-color: white;
+  z-index: 4;
+}
+div.wrapper{
+  top:10vh;
+  width: 100%;
+}
+img#compass{
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  margin-left:65%;
+  top:20px;
+}
+img#love_like{
+ width: 28px;
+ height:23px;
+ position: absolute;
+ margin-left: 65%;
+ left:90px;
+ top:27px;
+}
+img#person_search{
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  margin-left:65%;
+  left:135px;
+  top:28px;
+}
+img.person{
+  position: relative;
+  right: 100px;
+}
+input#search_user{
+  width: 90px;
+  position: absolute;
+  top:30px;
+  left:43%;
+  z-index: -1;
+  background-color: :lightgrey;
+}
+div.heading1{
+  width: 36%;
+  position: absolute;
+  top:.8em;
+}
+img#logo{
+ width: 30px;
+ height: auto;
+ margin-left: 40px;
+ position: relative;
+ bottom:20px; 
+}
+img#insta{
+  width:90px;
+  position: absolute;
+  bottom:22px;
+  left:100px;
+}
+div.vr{
+  border-right: 1px solid grey;
+  padding-right: 15px;
+  height: 30px;
+  width: 10px;
+  position: relative;
+  left:59px;
+  top:9px;
+}
+div.links{
+  display: block;
+}
+ul#icon1{
+  display: block;
+  margin-top: 100px;
+  margin-left: 20%;
+  font-weight: bold;
+}
+ul#icon2{
+ display: block;
+ margin-left: 22%;
+ font-weight: bold;
+}
+div.copyright{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 38%;
+}
+}
+@media only screen and (min-width: 620px){
+  input#search_user{
+    width:150px;
+    left:-300px;
+    margin-left:65%;
+  }
+  div.header2{
+    border-bottom:1px solid lightgrey;
+  }
+  div.wrapper{
+    width:600px;
+    border:1px solid lightgrey;
+    margin:auto;
+    position: relative;
+    background-color: white;
+    top:100px;
+    overflow-y:scroll;
+  }
+  div.content{
+    background-color:#fafafa;
+  }
+  div.logo{
+    position: relative;
+    margin-left: 65%;
+    left:-200px;
+  }
 }
 @media only screen and (min-width:1000px){
- 
-    div.heading1{
-      position: absolute;
-      left:100px;
-    }
-      
+  div.heading1{
+    position: absolute;
+    left:100px;
   }
+
+}

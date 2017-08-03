@@ -1,488 +1,418 @@
  @media only screen and (min-width:200px){
-     ::-webkit-scrollbar { 
+   ::-webkit-scrollbar { 
     display: none; 
-	 }
-   div.vr{
+  }
+  div.vr{
     display: none;
-   }
-    div#overlay{
-        display: none;  
-        position: fixed;
-       
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0,0,0,0.7);
-        z-index: 5;
-      }
- 
-     body{
-     	margin:0;
-     	padding: 0;
-     	box-sizing: border-box;
-     	font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-     
-     
-     }
+  }
+  div#overlay{
+    display: none;  
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 5;
+  }
+  body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+ .textbox{
+    position: relative;
+    top:2em;
+    width: 80%;
+    display: none;
+  }
+  a{
+    cursor:pointer;
+    text-decoration: none;
+  }
+  div.header2{
+    display: none;
+  }
+  div.header{
+    width: 100%;
+    height: 7%;
+    background-color: white;
+    z-index: 3;
+    border-bottom:.5px solid lightgrey;
+    position: fixed;
+  }
+  div.icon{
+    width: 7.5%;
+    position: absolute;
+    top:.7em;
+    margin-left: 15px;
+  }
+  div.heading{
+    width: 30%;
+    margin-left: 35vw;
+    position: absolute;
+    top:.7em;
+  }
+  img#search_user{
+    width: 25px;
+    height:auto;
+  }
+  img#instagram{
+    width: 90px;
+    height: auto;
+  }
 
-     .textbox{
-      position: relative;
-      top:2em;
-      width: 80%;
-      display: none;
-     }
-     a{
-     	cursor:pointer;
-     	text-decoration: none;
-     }
-     div.header2{
-      display: none;
-     }
-     div.header{
-     	width: 100%;
-     	height: 7%;
-      background-color: white;
-      z-index: 3;
-      border-bottom:.5px solid lightgrey;
-     	position: fixed;
-
-     }
-     div.icon{
-     	width: 7.5%;
-     	position: absolute;
-      top:.7em;
-     	margin-left: 15px;
-     	    
-     }
-     div.heading{
-     	width: 30%;
-     	margin-left: 35vw;
-     	position: absolute;
-     	top:.7em;
-      
-     	
-     }
-     img#search_user{
-     	width: 25px;
-     	height:auto;
-     }
-     img#instagram{
-     	width: 90px;
-     	height: auto;
-
-
-     }
-
-     div.footer{
-     	 box-shadow:  black;
-     	width: 100%;
-      height: 7%;
-     
-     	position: fixed;
-     	bottom: 0;
-     
-     }
-     ul.foot_icons{
-     	list-style-type: none;
-     }
-     li{
-     	display: inline;
-
-
-  	 }
-  	 div.content{
-  	 	width: 100%;
-  	
-  	 	height: 92%;
-  	 	position: fixed;
-  	 	
-  	 	overflow-y: scroll;
-      border-bottom: 1px solid lightgrey;
-     
-
-  	 }
-     div.wrapper{
-      position: relative;
-      top:40px;
-     }
-     div#content{
-      background-color: #fafafa;
-     }
-     div.wrapper{
-      background-color: white;
-     }
-  	 
-  	 img#home{
-      
-  	 	position: absolute;
-  	 	left:3%;
-  	 	bottom:.3em;
-  	 	width: 2.2em;
-  	 	height: auto;
-  	 		
-  	 	
-  	 }
-  	  img#search{
-  	 	position: absolute;
-  	 	left: 23%;
-  	   bottom:.5em;
-  	 	width: 25px;
-  	 	height:25px;
-    
-  	 		
-  	 	
-  	 }
-  	   img#camera{
-  	 	position: absolute;
-  	 	left: 45%;
-  	 bottom:.6em;
-  	 	width: 26px;
-      height: 25px;
-  	 
-
-
-  	 	
-  	 } 
-  	 img#love{
-  	 	position: relative;
-  	 	left:63%;
-  	 	width: 1.55em;
-  	   bottom:.18em;
-  	 	
-  	 }
-  	    
-  	    img#person{
-  	 	position: absolute;
-  	 	left:88%;
-  	 	 bottom:.45em;
-  	 	width: 1.65em;
-  	 	height: auto;
-
-  	 }
-  	div.title{
-  		width: 100%;
-  	} 
-  	div.profile_pic{
-  		border-radius: 50%;
-  		width: 2em;
-  		height: 2em;
-  		border:1px solid black;
-  		position: relative;
-  		top:1.5em;
-  		margin-left: 3vw;
-
-  	}
-  	img#profile_pic{
-  		width: 100%;
-      height: 100%;
-      border-radius: 50%;
-  		height: auto;
-  	}
-  	span#username{
-  	position: relative;
-  	left:2.5em;
-  	margin-left: 6vw;
-  	font-weight: bolder;
-   
-  	
-  	}
-  	div.dots{
-  		position: absolute;
-  		left:90%;
-  		top:1.7em;
-
-  	}
-  	div.dots span{
-  		font-weight: bolder;
-  		font-size: 1.2em;
-      cursor:pointer;
-  	}
-  	div.pic{
-  		width: 100%;
-  		height: 60vw;
-  		
-  		position:relative;
-  		top:1em;
-  	}
-  	img.pic1{
-  		width: 100%;
-  		height: auto;
-  	}
-  	div.likes{
-  		position:relative;
-      left:.1em;
-  		top:1em;
-  		
-  	}
-    div.likes1{
-      position:relative;
-      left:.1em;
-      top:1.2em;
-      
-    }
-  	li.comment{
-  		display: inline;
-  	} 
-  	img.like{
-  		width: 1.5em;
-  	 	height: auto;
-  	 	position: absolute;
-  	 	left: 3%;
-      top:1.2em;
-  	 	z-index: 1;
-
-  	}
-  	img.comment1{
-  		width: 2em;
-  	 	height: auto;
-  	 	position: absolute;
-  	 	left: 15vw;
-  	 	top:1.9vh;
-  	}
-  	div.description,div.description1{
-  		
-      font-size: 1.2em;
-  	}
-  	div.description span,div.description1 span{
-  		position: relative;
-  		top:4.5em;
-  		font-size: 1em;
-  		left:.75em;
-  	}
-  	div.chat{
-  		width: 100%;
-  		position: relative;
-  		top:5em;
-  		right: 4vh;
-  		
-  	}
-  	div.post2{
-  		position: relative;
-  		top:7em;
-  	}
-    div.pop{
-      font-size: 1.2em;
-      
-      width: 100%;
-      height: 25vh;
-      position: fixed;
-     bottom:0vh;
-      background-color: white;
-      border-top:1px solid black;
-      border-bottom: 1px solid black;
-      display: none;
-    }
-    hr{
-      position: relative;
-      right: 12%;
-      width: 120%;
-      
-      opacity:0.6;
-    }
-      hr#hr2{
-      position: relative;
-      right: 12%;
-      width: 120%;
-      top:.6em;
-      
-      opacity:0.6;
-    }
-    div.rep{
-      position: relative;
-      text-align: center;
-      right: 8%;
-      bottom:.2em;
-      cursor: pointer;
-    }
-    div.embed{
-      position: relative;
-      left: 34%;
-    }
-     div.cancel{
-      position: relative;
-      left: 35%;
-       top:1em;
-        cursor: pointer;
-    }
-    img#loading{
-      width: 10%;
-      height: auto;
-      position: relative;
-        top:40vh;
-      left:40%;
-    }
-    input#search_user{
-      display: none;
-    }
-    div.logo{
-      display: none;
-    }
-    div.head_icons{
-      display: none;
-    }
-
+  div.footer{
+   box-shadow:  black;
+   width: 100%;
+   height: 7%;
+   position: fixed;
+   bottom: 0;
  }
- 
- @media only screen and (min-width:500px){
-    div.heading{
-      display: none;
-    }
-    div.icon{
-      display: none;
-    }
-    div.head_icons{
-      display:block;
-    }
-    div.logo{
-      display:block;
-    }
-     div.vr{
+ ul.foot_icons{
+  list-style-type: none;
+}
+li{
+  display: inline;
+}
+div.content{
+ width: 100%;
+ height: 92%;
+ position: fixed;
+ overflow-y: scroll;
+ border-bottom: 1px solid lightgrey;
+}
+div.wrapper{
+  position: relative;
+  top:40px;
+}
+div#content{
+  background-color: #fafafa;
+}
+div.wrapper{
+  background-color: white;
+}
+img#home{
+ position: absolute;
+ left:3%;
+ bottom:.3em;
+ width: 2.2em;
+ height: auto;
+}
+img#search{
+ position: absolute;
+ left: 23%;
+ bottom:.5em;
+ width: 25px;
+ height:25px;
+}
+img#camera{
+ position: absolute;
+ left: 45%;
+ bottom:.6em;
+ width: 26px;
+ height: 25px;
+} 
+img#love{
+ position: relative;
+ left:63%;
+ width: 1.55em;
+ bottom:.18em;
+}
+img#person{
+ position: absolute;
+ left:88%;
+ bottom:.45em;
+ width: 1.65em;
+ height: auto;
+}
+div.title{
+  width: 100%;
+  height:auto;
+} 
+div.profile_pic{
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  border:1px solid black;
+  position: relative;
+  top:1.5em;
+  margin-left: 3vw;
+}
+img#profile_pic{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  height: auto;
+}
+span#username{
+margin-left: 5em;
+display: flex;
+align-self: center;
+}
+div.dots{
+  position: absolute;
+  left:90%;
+  top:1.7em;
+}
+div.dots span{
+  font-weight: bolder;
+  font-size: 1.2em;
+  cursor:pointer;
+}
+div.pic{
+  width: 100%;
+  height: 60vw;
+  position:relative;
+  top:1em;
+}
+img.pic1{
+  width: 100%;
+  height: auto;
+}
+div.likes{
+  position:relative;
+  left:.1em;
+  top:1em;
+}
+div.likes1{
+  position:relative;
+  left:.1em;
+  top:1.2em;
+}
+li.comment{
+  display: inline;
+} 
+img.like{
+  width: 1.5em;
+  height: auto;
+  position: absolute;
+  left: 3%;
+  top:1.2em;
+  z-index: 1;
+}
+img.comment1{
+  width: 2em;
+  height: auto;
+  position: absolute;
+  left: 15vw;
+  top:1.9vh;
+}
+div.description,div.description1{
+  font-size: 1.2em;
+}
+div.description span,div.description1 span{
+  position: relative;
+  top:4.5em;
+  font-size: 1em;
+  left:.75em;
+}
+div.chat{
+  width: 100%;
+  position: relative;
+  top:5em;
+  right: 4vh;
+}
+div.post2{
+  position: relative;
+  top:7em;
+}
+div.pop{
+  font-size: 1.2em;
+  width: 100%;
+  height: 25vh;
+  position: fixed;
+  bottom:0vh;
+  background-color: white;
+  border-top:1px solid black;
+  border-bottom: 1px solid black;
+  display: none;
+}
+hr{
+  position: relative;
+  right: 12%;
+  width: 120%;
+  opacity:0.6;
+}
+hr#hr2{
+  position: relative;
+  right: 12%;
+  width: 120%;
+  top:.6em;
+  opacity:0.6;
+}
+div.rep{
+  position: relative;
+  text-align: center;
+  right: 8%;
+  bottom:.2em;
+  cursor: pointer;
+}
+div.embed{
+  position: relative;
+  left: 34%;
+}
+div.cancel{
+  position: relative;
+  left: 35%;
+  top:1em;
+  cursor: pointer;
+}
+img#loading{
+  width: 10%;
+  height: auto;
+  position: relative;
+  top:40vh;
+  left:40%;
+}
+input#search_user{
+  display: none;
+}
+div.logo{
+  display: none;
+}
+div.head_icons{
+  display: none;
+}
+}
+@media only screen and (min-width:500px){
+  div.heading{
+    display: none;
+  }
+  div.icon{
+    display: none;
+  }
+  div.head_icons{
+    display:block;
+  }
+  div.logo{
+    display:block;
+  }
+  div.vr{
     display: block;
-   }
-     div.header{
-      display: none;
-     }
-       div.footer{
-       display: none;
-     }
-      div.content{
-      width: 100%;
-      background-color: #ffffe6;
-      height: 100vh;
-      position: fixed;
-     
-      
-    }
-    div.wrapper{
-      top:100px;
-    }
-     
-    div#dots{
-      display: none;
-    }
-    div.header2{
-      width: 100%;
-      height: 12.1vh;
-      position: fixed;
-      border-top: 1px solid lightgrey;
-      display: block;
-      background-color: white;
-      z-index: 3;
-    }
-   
-    img#compass{
-      width: 35px;
-      height: 35px;
-      position: absolute;
-      left:68%;
-      top:20px;
-    }
-    img#love{
-     width: 28px;
-      height:23px;
-      
-      position: absolute;
-      left:78.5%;
-      top:28px;
-      
-
-     
-    }
-    img#person{
-    width: 28px;
-      height: 28px;
-      
-      position: absolute;
-      left:88%;
-      top:27px;
-     
-
-    }
-    input#search_user{
-      display: block;
-      width: 90px;
-      position: absolute;
-      top:30px;
-      left:43%;
-      z-index: -1;
-      background-color: :lightgrey;
-    }
-    div.heading1{
-      width: 36%;
-      
-      position: absolute;
-      top:.8em;
-      
-    }
-    img#logo{
-     width: 30px;
-      height: auto;
-      margin-left: 40px;
-      position: relative;
-
-      bottom:20px; 
-
-
-    }
-    img#insta{
-      width:90px;
-      position: absolute;
-      bottom:22px;
-      left:100px;
-    }
-   div.vr{
-      border-right: 1px solid grey;
-      padding-right: 15px;
-      height: 30px;
-      width: 10px;
-      position: relative;
-      left:59px;
-      top:9px;
-    }
-    div.extra{
-      position: relative;
-      top:3em;
-    }
-    div.post2{
-      position: relative;
-      top:12em;
-    }
-    
-    li.comment1,li.comment2{
-      position:relative;
-      left:10px; 
-    }
-      img#loading{
-        margin-bottom: 50px;
-      width: 10%;
-      height: auto;
-      position: relative;
-        top:55vh;
-      left:40%;
-    }
-
+  }
+  div.header{
+    display: none;
+  }
+  div.footer{
+   display: none;
  }
+ div.content{
+  width: 100%;
+  background-color: #ffffe6;
+  height: 100vh;
+  position: fixed;
+}
+div.wrapper{
+  top:100px;
+}
+div#dots{
+  display: none;
+}
+div.header2{
+  width: 100%;
+  height: 12.1vh;
+  position: fixed;
+  border-top: 1px solid lightgrey;
+  display: block;
+  background-color: white;
+  z-index: 3;
+}
+img#compass{
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left:68%;
+  top:20px;
+}
+img#love{
+ width: 28px;
+ height:23px;
+ position: absolute;
+ left:78.5%;
+ top:28px;
+}
+img#person{
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left:88%;
+  top:27px;
+}
+input#search_user{
+  display: block;
+  width: 90px;
+  position: absolute;
+  top:30px;
+  left:43%;
+  z-index: -1;
+  background-color: :lightgrey;
+}
+div.heading1{
+  width: 36%;
+  position: absolute;
+  top:.8em;
+}
+img#logo{
+ width: 30px;
+ height: auto;
+ margin-left: 40px;
+ position: relative;
+ bottom:20px; 
+}
+img#insta{
+  width:90px;
+  position: absolute;
+  bottom:22px;
+  left:100px;
+}
+div.vr{
+  border-right: 1px solid grey;
+  padding-right: 15px;
+  height: 30px;
+  width: 10px;
+  position: relative;
+  left:59px;
+  top:9px;
+}
+div.extra{
+  position: relative;
+  top:3em;
+}
+div.post2{
+  position: relative;
+  top:12em;
+}
+li.comment1,li.comment2{
+  position:relative;
+  left:10px; 
+}
+img#loading{
+  margin-bottom: 50px;
+  width: 10%;
+  height: auto;
+  position: relative;
+  top:55vh;
+  left:40%;
+}
+}
 @media only screen and (min-width:750px){
- 
   div.heading1{
     margin-left: 15%;
   }
-
-   div.wrapper{
-  width: 600px;
-  margin:auto;
- }
-div.extra2{
-  position: absolute;
- 
-  top:430px;
- }
+  div.wrapper{
+    width: 600px;
+    margin:auto;
+  }
+  div.extra2{
+    position: absolute;
+    top:430px;
+  }
 }
 @media only screen and (min-width:1000px){
-
   img#loading{
     position: relative;
     top:2vh;
@@ -494,69 +424,59 @@ div.extra2{
     height: 20px;
     border-radius: 1px;
   }
-
- 
- img.pic1{
-  height: 400px;
-
- }
+  img.pic1{
+    height: 400px;
+  }
   img.pic2{
-  height: 400px;
-
- }
- div.extra1{
-  position: absolute;
- 
-  top:400px;
- }
+    height: 400px;
+  }
+  div.extra1{
+    position: absolute;
+    top:400px;
+  }
   div.heading1{
     margin-left: 1%;
   }
- 
-
- div.post2{
-  border:1px solid lightgrey;
-  position: relative;
-  top:10vh;
+  div.post2{
+    border:1px solid lightgrey;
+    position: relative;
+    top:10vh;
     height:auto;
     margin-bottom: 100px;
- }
-  div.post1{
-  border:1px solid lightgrey;
-  height: auto;
-  margin-top: 50px;
- }
- div.gif{
-  position: relative;
-  top:10em;
- }
-  img#logo{
-     width: 34px;
-      height: auto;
-      margin-left: 170px;
-      position: relative;
-
-      bottom:30px; 
-
-
-    }
-    div.vr{
-      height: 40px;
-      left:194px;
-    }
-    img#insta{
-      width:110px;
-      position: absolute;
-      bottom:30px;
-      left:230px;
-    }
-    img#compass{
-left:64%;
-   } 
-   img#love{
-left:69%;
-    }
-  img#person{
-    left:74%;
   }
+  div.post1{
+    border:1px solid lightgrey;
+    height: auto;
+    margin-top: 50px;
+  }
+  div.gif{
+    position: relative;
+    top:10em;
+  }
+  img#logo{
+   width: 34px;
+   height: auto;
+   margin-left: 170px;
+   position: relative;
+   bottom:30px; 
+ }
+ div.vr{
+  height: 40px;
+  left:194px;
+}
+img#insta{
+  width:110px;
+  position: absolute;
+  bottom:30px;
+  left:230px;
+}
+img#compass{
+  left:64%;
+} 
+img#love{
+  left:69%;
+}
+img#person{
+  left:74%;
+}
 }

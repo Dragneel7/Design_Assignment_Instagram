@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
+<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0">
 <head>
 	<title>Instagram</title>
 	<link rel="stylesheet" type="text/css" href="../css/profile1.css">
 	<link rel="shortcut icon" href="https://www.instagram.com/favicon.ico" type="image/x-icon">
 	<script src="../js/explore.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script>
 		$(document).ready(function(){
 			$(function(){
-					var win = $(window);
-					resizeHandler();
-					win.resize(resizeHandler);
-					function resizeHandler(){
-						if(win.width()>500){
-							$('#overlay2').hide();
-						}
+				var win = $(window);
+				resizeHandler();
+				win.resize(resizeHandler);
+				function resizeHandler(){
+					if(win.width()>500){
+						$('#overlay2').hide();
 					}
+				}
 			});
 			
 		});
@@ -25,241 +26,240 @@
 		$(document).ready(function(){
 			
 
-				
+
 			var lastScrollTop = 0, delta = 5;
 			$('#content').scroll(function(event){
 				
 				var y = $(window).width()>500?'.header2':'.header';
 
-				  var st = $(this).scrollTop();
+				var st = $(this).scrollTop();
 				
-  					 if(Math.abs(lastScrollTop - st) <= delta)
-      						return;
+				if(Math.abs(lastScrollTop - st) <= delta)
+					return;
 
-   					if (st > lastScrollTop){
-      					$(y).slideUp('slow');
-     
-   					} else {
-    					 $(y).slideDown('slow');
-     
-   					}
-   					lastScrollTop = st;
-   				
-   			
+				if (st > lastScrollTop){
+					$(y).slideUp('slow');
+
+				} else {
+					$(y).slideDown('slow');
+
+				}
+				lastScrollTop = st;
+
+
 			});
 			
-		
+
 			
 		});
 	</script>
 
 </head>
 <body >
-<div id="overlay">
-	<img src="../images/close.png" id="close" onclick="close3()">
-	<div id="ind_image">
-	<div class="heading_image">Photo</div>
-	<div class="user_image">
-		<img src="../images/img.jpg" id="small_me">
-		<p>Dragneel7</p>
-		<div class="dots" onclick="fun3()" id="dots">...</div>
-	</div>
-	<img src="#" id="ind_image1" alt="individuql image here">
-	<div class="extra_info">
-		<ul class="foot_icons">
-			<li><img src="../images/love.png" ></li>
-			<li><img src="../images/comment.png" id="like2"></li>
-		</ul>
-		<p>
-			<strong>53 likes</strong>
-			<br>
-			<strong>Dragneel7 : </strong>some comment here.
-		</p>
-	</div>
-	
-</div>
-<div id="overlay2" onclick="close2()">
-<div class="pop" id="pop1">
-	<ul class="foot_icons">
-		<li><div class="rep">DELETE</div></li>
-		
-		
-		<hr id="hr2">
-		<li><div class="cancel" onclick="close2()">Cancel</div></li>
-	</ul>
-</div>
-</div>
-</div>
-<div class="header">
-	<div class="icon">
-		<a href="profile.html">
-			<img src="../images/person.png" alt="add user icon" class="search_user">
-		</a>
-	</div>
-	<div class="heading">
-		<h2>Profile</h2>
-	</div>
-	<div class="icon2">
-		<a href="#">
-			<img src="../images/settings.png" alt="add user icon" class="search_user">
-		</a>
-	</div>
-</div>
+	<div id="overlay">
+		<img src="../images/close.png" id="close" onclick="close3()">
+		<div id="ind_image">
+			<div class="heading_image">Photo</div>
+			<div class="user_image">
+				<img src="../images/img.jpg" id="small_me">
+				<p>Dragneel7</p>
+				<div class="dots" onclick="fun3()" id="dots">...</div>
+			</div>
+			<img src="#" id="ind_image1" alt="individuql image here">
+			<div class="extra_info">
+				<ul class="foot_icons">
+					<li><img src="../images/love.png" ></li>
+					<li><img src="../images/comment.png" id="like2"></li>
+				</ul>
+				<p>
+					<strong>53 likes</strong>
+					<br>
+					<strong>Dragneel7 : </strong>some comment here.
+				</p>
+			</div>
 
-<div class="header2">
-	<div class="heading1">
-		<a href="home.html">
-		<div class="logo1">
-			<div class="vr">1	</div>
-			<img src="../images/logo.jpg" id="logo">
-			<img src="../images/instagram.png" id="insta">
 		</div>
-		</a>
-	</div>
-	<div class="search_input">
-		<input type="text" name="user" id="search_user" placeholder="Search">
-	</div>
-	<div class="head_icons">
-		<ul class="foot_icons">
-			<li>
-				<a href="search.html">
-					<img src="../images/compass.png" id="compass">
-				</a>
-			</li>
-			<li>
-				<a href="">
-					<img src="../images/love.png" id="love1">
-				</a>
-			</li>
-			<li>
-				<a href="">
-					<img src="../images/person.png" id="person1">
-				</a>
-			</li>
-		</ul>
-	</div>
-</div>
+		<div id="overlay2" onclick="close2()">
+			<div class="pop" id="pop1">
+				<ul class="foot_icons">
+					<li><div class="rep">DELETE</div></li>
 
 
-<div class="content" id="content">
-  <div class="wrapper" id="wrapper">
-	<div class="userinfo">
-		<div class="user_photo">
-			<a href="#">
-				<img src="../images/img.jpg" id="me">
+					<hr id="hr2">
+					<li><div class="cancel" onclick="close2()">Cancel</div></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="header">
+		<div class="icon">
+			<a href="profile.html">
+				<img src="../images/person.png" alt="add user icon" class="search_user">
 			</a>
 		</div>
-		<div class="username">
-			<div class="person_name" >Dragneel7</div>
-			<button id="edit_profile"><strong>Edit Profile</strong></button>
-			<div class="icon3">
-		<a href="#">
-			<img src="../images/settings.png" alt="add user icon" class="search_user">
-		</a>
-	</div>
+		<div class="heading">
+			<h2>Profile</h2>
 		</div>
-		<p id="caption"><strong>Surya Saini  </strong>To Be or Not to Be ⭐.⭐ </p>
-		<hr>
-		<div class="stats">
+		<div class="icon2">
+			<a href="#">
+				<img src="../images/settings.png" alt="add user icon" class="search_user">
+			</a>
+		</div>
+	</div>
+
+	<div class="header2">
+		<div class="heading1">
+			<a href="home.html">
+				<div class="logo1">
+					<div class="vr">1	</div>
+					<img src="../images/logo.jpg" id="logo">
+					<img src="../images/instagram.png" id="insta">
+				</div>
+			</a>
+		</div>
+		<div class="search_input">
+			<input type="text" name="user" id="search_user" placeholder="Search">
+		</div>
+		<div class="head_icons">
 			<ul class="foot_icons">
-				<li class="li_stats"><strong>55</strong><span id="s1">posts</span></li>
-				<li class="li_stats"><a href="#"><strong>173</strong>
-				<span id="s2">followers</span></a></li>
-				<li class="li_stats"><a href="#"><strong>129</strong><span id="s3">following</span></a></li>
+				<li>
+					<a href="search.html">
+						<img src="../images/compass.png" id="compass">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="../images/love.png" id="love1">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="../images/person.png" id="person1">
+					</a>
+				</li>
 			</ul>
 		</div>
 	</div>
- <div class="images">	
-	<div class="imageset1">
-		<ul class="foot_icons">
-			<li><a href="#"><img class="img1" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="1">
-				</a>
-			</li>
-			<li><a href="#"><img class="img2" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="2">
-				</a>
-			</li>
-			<li><a href="#"><img  class="img3" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="3">
-				</a>
-			</li>
-		</ul>
-	</div>
-<div class="collect">	
-<div class="imageset3">
-		<ul class="foot_icons">
-			<li><a href="#"><img class="img1" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="4">
+
+
+	<div class="content" id="content">
+		<div class="wrapper" id="wrapper">
+			<div class="userinfo">
+				<div class="user_photo">
+					<a href="#">
+						<img src="../images/img.jpg" id="me">
+					</a>
+				</div>
+				
+				<span class="person_name" >Dragneel7</span>
+					<button id="edit_profile"><strong>Edit Profile</strong></button>
+					<div class="icon3">
+						<a href="#">
+							<img src="../images/settings.png" alt="add user icon" class="search_user">
+						</a>
+					</div>
+				
+				<span id="caption"><strong>Surya Saini  </strong>To Be or Not to Be ⭐.⭐ </span>
+				<hr>
+				<div class="stats">
+					<ul class="foot_icons">
+						<li class="li_stats"><strong>55</strong><span id="s1">posts</span></li>
+						<li class="li_stats"><a href="#"><strong>173</strong>
+							<span id="s2">followers</span></a></li>
+							<li class="li_stats"><a href="#"><strong>129</strong><span id="s3">following</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="images">	
+					<div class="imageset1">
+						<ul class="foot_icons">
+							<li><a href="#"><img class="img1" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="1">
+							</a>
+						</li>
+						<li><a href="#"><img class="img2" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="2">
+						</a>
+					</li>
+					<li><a href="#"><img  class="img3" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="3">
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="imageset1">
+			<ul class="foot_icons">
+				<li><a href="#"><img class="img1" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="4">
 				</a>
 			</li>
 			<li><a href="#"><img class="img2" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="5">
-				</a>
-			</li>
-			<li><a href="#"><img  class="img3" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="6">
-				</a>
-			</li>
-		</ul>
-	</div>
-	<div class="imageset6">
-		<ul class="foot_icons">
-			<li><a href="#"><img class="img1" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="7">
-				</a>
-			</li>
-			<li><a href="#"><img class="img2" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="8">
-				</a>
-			</li>
-			<li><a href="#"><img  class="img3" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="9">
-				</a>
-			</li>
-		</ul>
-	</div>		
-	<div class="imageset8">
-		<ul class="foot_icons">
-			<li><a href="#"><img class="img1" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="10">
-				</a>
-			</li>
-			<li><a href="#"><img class="img2" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="11">
-				</a>
-			</li>
-			<li><a href="#"><img  class="img3" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="12">
-				</a>
-			</li>
-		</ul>
-	</div>
-	<div class="load">
-		<p>Load more</p>
-	</div>
-	</div>
- </div>
-<br>
-<br>
-<br>
-<div class="links"><ul class="foot_icons" id="icons1">
-			<li><a href="#">ABOUT US</a></li>
-			<li><a href="#">SUPPORT</a></li>
-			<li><a href="#">BLOG</a></li>
-			<li><a href="#">PRESS</a></li>
-			<li><a href="#">API</a></li>
-			<li><a href="#">JOBS</a></li>
+			</a>
+		</li>
+		<li><a href="#"><img  class="img3" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="6">
+		</a>
+	</li>
 </ul>
-	<ul class="foot_icons" id="icons2">
-		<li><a href="#">PRIVACY</a></li>
-		<li><a href="#">TERMS</a></li>
-		<li><a href="#">DIRECTORY</a></li>
-		<li><a href="#">LANGUAGE</a></li>
-	</ul>
-	<ul class="foot_icons" id="icon3">
-			<li><a href="#">ABOUT US</a></li>
-			<li><a href="#">SUPPORT</a></li>
-			<li><a href="#">BLOG</a></li>
-			<li><a href="#">PRESS</a></li>
-			<li><a href="#">API</a></li>
-			<li><a href="#">JOBS</a></li>
-			<li><a href="#">PRIVACY</a></li>
-		<li><a href="#">TERMS</a></li>
-		<li><a href="#">DIRECTORY</a></li>
-		<li><a href="#">LANGUAGE</a></li>
-	</ul>
 </div>
-<div class="copyright">&#169 2017 INSTAGRAM</div>
-  </div>
+<div class="imageset1">
+	<ul class="foot_icons">
+		<li><a href="#"><img class="img1" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="7">
+		</a>
+	</li>
+	<li><a href="#"><img class="img2" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="8">
+	</a>
+</li>
+<li><a href="#"><img  class="img3" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="9">
+</a>
+</li>
+</ul>
+</div>
+<div class="imageset1">
+	<ul class="foot_icons">
+		<li><a href="#"><img class="img1" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="10">
+		</a>
+	</li>
+	<li><a href="#"><img class="img2" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="11">
+	</a>
+</li>
+<li><a href="#"><img  class="img3" src="../images/img.jpg" alt="image" onclick="fun(this.id)" id="12">
+</a>
+</li>
+</ul>
+</div>
+
+
+
+<div class="load">
+	<p>Load more</p>
+</div>
+</div>
+
+<div class="links"><ul class="foot_icons" id="icons1">
+	<li><a href="#">ABOUT US</a></li>
+	<li><a href="#">SUPPORT</a></li>
+	<li><a href="#">BLOG</a></li>
+	<li><a href="#">PRESS</a></li>
+	<li><a href="#">API</a></li>
+	<li><a href="#">JOBS</a></li>
+</ul>
+<ul class="foot_icons" id="icons2">
+	<li><a href="#">PRIVACY</a></li>
+	<li><a href="#">TERMS</a></li>
+	<li><a href="#">DIRECTORY</a></li>
+	<li><a href="#">LANGUAGE</a></li>
+</ul>
+<ul class="foot_icons" id="icon3">
+	<li><a href="#">ABOUT US</a></li>
+	<li><a href="#">SUPPORT</a></li>
+	<li><a href="#">BLOG</a></li>
+	<li><a href="#">PRESS</a></li>
+	<li><a href="#">API</a></li>
+	<li><a href="#">JOBS</a></li>
+	<li><a href="#">PRIVACY</a></li>
+	<li><a href="#">TERMS</a></li>
+	<li><a href="#">DIRECTORY</a></li>
+	<li><a href="#">LANGUAGE</a></li>
+	<li>&#169 2017 INSTAGRAM</li>
+</ul>
+</div>
+
 </div>
 
 

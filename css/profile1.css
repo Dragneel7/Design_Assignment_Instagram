@@ -1,847 +1,710 @@
 @media only screen and (min-width:200px){
 	::-webkit-scrollbar { 
-    display: none; 
-	 }
-    div.vr{
-    display: none;
-   }
-     input#search_user{
-      display: none;
-    }
-    div.logo{
-      display: none;
-    }
-    div.head_icons{
-      display: none;
-    }
-      div#overlay{
-        display: none;  
-        position: fixed;
-       
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0,0,0,0.7);
-        z-index: 5;
-      }
-        div#overlay2{
-        display: none;  
-        position: fixed;
-       
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0,0,0,0.7);
-        z-index: 6;
-      }
+		display: none; 
+	}
+  body{
+		margin:0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+		overflow-x: hidden;      
 
- body{
-      margin:0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-      
-      
-     }
-     div.header2{
-      display: none;
+	}
+	div.vr{
+		display: none;
+	}
+	input#search_user{
+		display: none;
+	}
+	div.logo{
+		display: none;
+	}
+	div.head_icons{
+		display: none;
+	}
+	div#overlay{
+		display: none;  
+		position: fixed;
 
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0,0,0,0.7);
+		z-index: 5;
+	}
+	div#overlay2{
+		display: none;  
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0,0,0,0.7);
+		z-index: 6;
+	}
+	div.header2{
+		display: none;
+	}
+	a{
+		text-decoration: none;
+		cursor: pointer;
+		color: black;
+	}
+	div.footer{
+		box-shadow:  black;
+		width: 100%;
+		background-color:white;
+		position: fixed;
+		bottom: 0;
+	}
+	ul.foot_icons{
+		list-style-type: none;
+	}
+	li{
+		display: inline;
+	}
+	img.nav_icons{
+		width: 2em;
+		height: auto;
+		padding-left: 1.5em;
 
-     }
-     a{
-     	text-decoration: none;
-     	cursor: pointer;
-      color: black;
-
-     }
-      div.footer{
-     	 box-shadow:  black;
-     	width: 100%;
-      background-color:white;
-     	position: fixed;
-     	bottom: 0;
-     
-     }
-     ul.foot_icons{
-     	list-style-type: none;
-     }
-     li{
-     	display: inline;
-
-
-  	 }img.nav_icons{
-  	 	width: 2em;
-  	 	height: auto;
-  	 	padding-left: 1.5em;
-
-  	 }
-  	  img#home{
-      
-      position: absolute;
-      
-      bottom:.3em;
-      width: 26px;
-      height:26px;
-        top:22px;
-      left:-100px;  
-      margin-left: 25%;
-     }
-      img#search{
-      position: absolute;
-      left:-100px;  
-      margin-left: 45%;
-       bottom:.5em;
-      width: 25px;
-      height:25px;
-    
-        
-      
-     }
-       img#camera{
-      position: absolute;
-       left:-100px;  
-      margin-left: 67%;
-     bottom:.6em;
-      width: 26px;
-      height: 25px;
-     
-
-
-      
-     } 
-     img#love{
-      position: relative;
-      top:8px;
-       left:-100px;  
-      margin-left: 90%;
-      width: 1.55em;
-      
-      
-     }
-        
-        img#person{
-      position: absolute;
-       left:-100px;  
-      margin-left: 110%;
-       bottom:.45em;
-      width: 1.65em;
-      height: auto;
-
-     }
-  	 
-     div.header{
-      width: 100%;
-      height: 7%;
-      border-bottom: 1px solid lightgrey;
-      position: fixed;
-      background-color: white;
-      z-index:3;
-     }
-     div.icon{
-      width: 26px;
-      position: absolute;
-      top:10px;
-      left:20px;
-      
-     }
-     img.search_user{
-      width: 100%;
-      height:auto;
-     }
-      div.heading{
-      
-      margin-left: 42%;
-      position: relative;
-     bottom:5px;
-      
-     }
-     div.heading h2{
-   font-size: 20px;
-     }
-      div.icon2{
-      width: 24px;
-      position: absolute;
-     top:12px;  
-     left:88%; 
-     }
-     div.user_photo{
-      width: 77px;
-      height: 77px;
-      position: relative;
-      top:5.5vh;
-      left:15px;
-      
-     }
-     img#me{
-      width: 100%;
-      height: 100%;
-      border-radius: 50%;
-    
-     }
-     
-     div.person_name{
-      width: 103px;
-    font-size: 20px;
-      position: relative;
-      left:115px;
-      bottom:38px;
-     
-     }
-     button#edit_profile{
-      background-color: white;
-      display: block;
-      width: 63%;
-      height: 28px;
-      position: relative;
-      bottom: 25px;
-      left:115px;
-      border-radius: 5px;
-      cursor: pointer;
-
-     }
-     div.content{
-      width: 100%;
-      border-bottom: 1px solid lightgrey;
-     overflow-y: scroll;
-      position: fixed;
-     
-      height: 95vh;
-     }
-     div.wrapper{
-      position: relative;
-      top:30px;
-     }
-     p#caption{
-      position: relative;
-      font-size: 14px;
-      position: relative;
-      bottom:10px;
-      left:15px;
-      
-     }
-     hr{
-      position: relative;
-      bottom:7px;
-      width: 95%;
-      opacity: .2;
-     }
-
-     div.stats ul{
-      position: absolute;
-      top:165px;
-      font-size: 14px;
-      left:-150px;
-      margin-left: 35%;
-     }
-     div.icon3{
-      display: none;
-     }
-    
-     li span{
-      position: absolute;
-      top:1.2em;
-      opacity: .4;
-     }
-     li span#s1{
-      left:73px;
-     }
-      li span#s2{
-      left:168px;
-     }
-      li span#s3{
-      left:274px;
-     }
-     li.li_stats{
-      padding: 40px;
-     }
-     div.images{
-      position: relative;
-      top:50px;
-     }
-    
-    img.img1{
-      width: 33%;
-      height:35vw;
-      
-      position:absolute;
-     left:0;
-    }
-    img.img2{
-      width: 33%;
-      height:35vw;
-      
-      position: absolute;
-      left:34.9%;
-    
-    }
-    img.img3{
-      width: 33%;
-        height:35vw;
-      
-      position: relative;
-      
-     left:66.5%;
-    }
-    
-  div.load{
-      background-color: #3897F0;
-      color: white;
-      width: 90%;
-      margin-left: 5%;
-      border-radius: 4px;
-      position: relative;
-      margin-bottom: 30px;
-      height: 34px;
-      text-align: center;
-
-    }
-  div.load p{
-   position: relative;
-   top:7px;
-  } 
-   div.heading_image{
-    font-weight: bolder;
-    margin-left: 40%;
-    margin-top: 10px;
-
-    
-   }
-   div.user_image{
-    font-size: 15px;
-    font-weight: bold;
-
-    margin-top: 20px;
-   }
-   img#small_me{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin-top: 10px;
-    margin-left: 15px;
-    
-   }
-   div.user_image p{
-    position: absolute;
-    z-index: 10;
-    top:50px;
-    left:50px;
-   }
-  div.dots{
-    position: absolute;
-    top:60px;
-    margin-left: 95%;
-    cursor: pointer;
-    }   
-   div#ind_image{
-      width: 100%;
-     height: 93vh;
-      position: absolute;
-      border-bottom: 1px solid lightgrey;
-            background-color: #fafafa;
-      display: none;
-    }
-    img#ind_image1{
-
-      width: 100%;
-      height:30vh;
-      margin-top: 10px;
-      
-    }
-    div.extra_info img{
-      width: 24px;
-      height: 24px;
-
-    }
-    div.extra_info ul{
-    position: relative;
-    left:-26px;
-    }
-    div.extra_info ul li {
-      padding-right: 15px;
-    }
-    div.extra_info p{
-      font-size: 15px;
-      margin-left:15px;
-    }
-     div.pop{
-      font-size: 1.2em;
-      
-      width: 100%;
-      height: 25vh;
-      position: fixed;
-     top:80vh;
-      background-color: white;
-      border-top:1px solid black;
-      border-bottom: 1px solid black;
-      display: none;
-    }
-    hr{
-      position: relative;
-      right: 12%;
-      width: 120%;
-      
-      opacity:0.6;
-    }
-    hr#hr2{
-      position: relative;
-      top:12px;
-    }
-     
-    div.rep{
-      position: relative;
-      text-align: center;
-      right: 8%;
-      bottom:.2em;
-      cursor: pointer;
-    }
-   
-     div.cancel{
-      position: relative;
-      left: 32%;
-       top:1em;
-        cursor: pointer;
-    }
-   
-    div.stats ul{
-      margin-left: 40%;
-    }
-    div.links{
-      position: relative;
-
-      font-size: 1.2em;
-      margin-left: 7%;
-    }
-    div.links li{
-      padding-left: .5em;
-    }
-    div.copyright{
-      margin-left: 36%;
-    }
-    div.links,div.copyright{
-      display: none;
-    }
-    img.img2{
-      left:34.5%;
-    }
-    ul#icon3{
-      display: none;
-    }
-    img#close{
-      display:none;
-    }
-
-   img#like2{
-      width: 35px ;
-      height: 35px;
-      position: relative;
-      top:5px;
-    }  
+	}
+	img#home{
+		position: absolute;
+		bottom:.3em;
+		width: 26px;
+		height:26px;
+		top:22px;
+		left:-100px;  
+		margin-left: 25%;
+	}
+	img#search{
+		position: absolute;
+		left:-100px;  
+		margin-left: 45%;
+		bottom:.5em;
+		width: 25px;
+		height:25px;
+	}
+	img#camera{
+		position: absolute;
+		left:-100px;  
+		margin-left: 67%;
+		bottom:.6em;
+		width: 26px;
+		height: 25px;
+	} 
+	img#love{
+		position: relative;
+		top:8px;
+		left:-100px;  
+		margin-left: 90%;
+		width: 1.55em;
+	}
+	img#person{
+		position: absolute;
+		left:-100px;  
+		margin-left: 110%;
+		bottom:.45em;
+		width: 1.65em;
+		height: auto;
+	}
+	div.header{
+		width: 100%;
+		height: 7%;
+		border-bottom: 1px solid lightgrey;
+		position: fixed;
+		background-color: white;
+		z-index:3;
+	}
+	div.icon{
+		width: 26px;
+		position: absolute;
+		top:10px;
+		left:20px;
+  }
+	img.search_user{
+		width: 100%;
+		height:auto;
+	}
+	div.heading{
+		margin-left: 42%;
+		position: relative;
+		bottom:5px;
+	}
+	div.heading h2{
+		font-size: 20px;
+	}
+	div.icon2{
+		width: 24px;
+		position: absolute;
+		top:12px;  
+		left:88%; 
+	}
+	div.user_photo{
+		width: 77px;
+		height: 77px;
+		position: relative;
+		top:5.5vh;
+		left:15px;
+	}
+	img#me{
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+	}
+	.person_name{
+		width: 103px;
+		font-size: 20px;
+		position: relative;
+		left:115px;
+		bottom:38px;
+	}
+	button#edit_profile{
+		background-color: white;
+		display: block;
+		width: 63%;
+		height: 28px;
+		position: relative;
+		bottom: 25px;
+		left:115px;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+	div.content{
+		width: 100%;
+		border-bottom: 1px solid lightgrey;
+		overflow-y: scroll;
+		position: fixed;
+		height: 95vh;
+	}
+	div.wrapper{
+		position: relative;
+		top:30px;
+	}
+	p#caption{
+		position: relative;
+		font-size: 14px;
+		position: relative;
+		bottom:10px;
+		left:15px;
+	}
+	hr{
+		position: relative;
+		bottom:7px;
+		width: 95%;
+		opacity: .2;
+	}
+	div.stats ul{
+		position: absolute;
+		top:165px;
+		font-size: 14px;
+		left:-150px;
+		margin-left: 35%;
+	}
+	div.icon3{
+		display: none;
+	}
+	li span{
+		position: absolute;
+		top:1.2em;
+		opacity: .4;
+	}
+	li span#s1{
+		left:73px;
+	}
+	li span#s2{
+		left:168px;
+	}
+	li span#s3{
+		left:274px;
+	}
+	li.li_stats{
+		padding: 40px;
+	}
+	div.images{
+		position: relative;
+		top:50px;
+	}
+	img.img1{
+		width: 33%;
+		height:35vw;
+		position:absolute;
+		left:0;
+	}
+	img.img2{
+		width: 33%;
+		height:35vw;
+		position: absolute;
+		left:34.9%;
+	}
+	img.img3{
+		width: 33%;
+		height:35vw;
+		position: relative;
+		left:66.5%;
+	}
+	div.load{
+		background-color: #3897F0;
+		color: white;
+		width: 90%;
+		margin-left: 5%;
+		border-radius: 4px;
+		position: relative;
+		margin-bottom: 30px;
+		height: 34px;
+		text-align: center;
+	}
+	div.load p{
+		position: relative;
+		top:7px;
+	} 
+	div.heading_image{
+		font-weight: bolder;
+		margin-left: 40%;
+		margin-top: 10px;
+	}
+	div.user_image{
+		font-size: 15px;
+		font-weight: bold;
+		margin-top: 20px;
+	}
+	img#small_me{
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		margin-top: 10px;
+		margin-left: 15px;
+	}
+	div.user_image p{
+		position: absolute;
+		z-index: 10;
+		top:50px;
+		left:50px;
+	}
+	div.dots{
+		position: absolute;
+		top:60px;
+		margin-left: 95%;
+		cursor: pointer;
+	}   
+	div#ind_image{
+		width: 100%;
+		height: 93vh;
+		position: absolute;
+		border-bottom: 1px solid lightgrey;
+		background-color: #fafafa;
+		display: none;
+	}
+	img#ind_image1{
+		width: 100%;
+		height:30vh;
+		margin-top: 10px;
+	}
+	div.extra_info img{
+		width: 24px;
+		height: 24px;
+	}
+	div.extra_info ul{
+		position: relative;
+		left:-26px;
+	}
+	div.extra_info ul li {
+		padding-right: 15px;
+	}
+	div.extra_info p{
+		font-size: 15px;
+		margin-left:15px;
+	}
+	div.pop{
+		font-size: 1.2em;
+		width: 100%;
+		height: 25vh;
+		position: fixed;
+		top:80vh;
+		background-color: white;
+		border-top:1px solid black;
+		border-bottom: 1px solid black;
+		display: none;
+	}
+	hr{
+		position: relative;
+		right: 12%;
+		width: 120%;
+		opacity:0.6;
+	}
+	hr#hr2{
+		position: relative;
+		top:12px;
+	}
+	div.rep{
+		position: relative;
+		text-align: center;
+		right: 8%;
+		bottom:.2em;
+		cursor: pointer;
+	}
+	div.cancel{
+		position: relative;
+		left: 32%;
+		top:1em;
+		cursor: pointer;
+	}
+	div.stats ul{
+		margin-left: 40%;
+	}
+	div.links{
+		position: relative;
+		font-size: 1.2em;
+		margin-left: 7%;
+	}
+	div.links li{
+		padding-left: .5em;
+	}
+	div.copyright{
+		margin-left: 36%;
+	}
+	div.links,div.copyright{
+		display: none;
+	}
+	img.img2{
+		left:34.5%;
+	}
+	ul#icon3{
+		display: none;
+	}
+	img#close{
+		display:none;
+	}
+	img#like2{
+		width: 35px ;
+		height: 35px;
+		position: relative;
+		top:5px;
+	}  
 }
 @media only screen and  (min-width: 500px){
+	div.heading{
+		display: none;
+	}
+	div.icon{
+		display: none;
+	}
+	div.head_icons{
+		display:block;
+	}
+	div.logo{
+		display:block;
+	}
+	div.vr{
+		display: block;
+	}
 
-
-   div.heading{
-      display: none;
-    }
-    div.icon{
-      display: none;
-    }
-    div.head_icons{
-      display:block;
-    }
-    div.logo{
-      display:block;
-    }
-     div.vr{
-    display: block;
-   }
-
-      div.header{
-      display: none;
-     }
-       div.footer{
-       display: none;
-     }
-      div.content{
-      width: 100%;
-      background-color: #fafafa;
-      height: 100vh;
-      position: fixed;
-     
-      
-    }
-    div.wrapper{
-        top:80px;
-    }
-      div.dots{
-      display: none;
-    }
-     div.header2{
-      width: 100%;
-      height: 12.1vh;
-      z-index: 3;
-      position: fixed;
-      border-bottom: 1px solid lightgrey;
-      background-color: white;
-      display: block;
-    }
-   
-    img#compass{
-      width: 35px;
-      height: 35px;
-      position: absolute;
-      margin-left:65%;
-      top:20px;
-    }
-    img#love1{
-     width: 28px;
-      height:23px;
-      
-      position: absolute;
-      margin-left:65%;
-      left:90px;
-   
-      top:27px;
-      
-
-     
-    }
-    img#person1{
-    width: 28px;
-      height: 28px;
-     position: absolute;
-     margin-left: 65%;
-     left:140px;
-     top:27px;
-     
-
-    }
-    input#search_user{
-      height: 28px;
-      display: block;
-      width: 90px;
-      position: absolute;
-      top:25px;
-      left:43%;
-      z-index: -1;
-      background-color: :lightgrey;
-      border: solid 1px #dbdbdb;
-      font-size: 14px;
-      line-height: 18px;
-    }
-
-    ::-webkit-input-placeholder{
-     
-      text-align: center;
-    }
-
-     img.img1:hover,img.img2:hover,img.img3:hover{
-      filter: brightness(60%);
-    }
-    div.heading1{
-      width: 36%;
-      
-      position: absolute;
-      top:.8em;
-      
-    }
-    img#logo{
-     width: 30px;
-      height: auto;
-      margin-left: 40px;
-      position: relative;
-
-      bottom:20px; 
-
-
-    }
-    img#insta{
-      width:90px;
-      position: absolute;
-      bottom:22px;
-      left:100px;
-    }
-   div.vr{
-      border-right: 1px solid grey;
-      padding-right: 15px;
-      height: 30px;
-      width: 10px;
-      position: relative;
-      left:59px;
-      top:9px;
-    }
-    div.heading_image{
-      display: none;
-    }
-    div#ind_image{
-      height: 100vh;
-      overflow-y: scroll;
-      width: 85%;
-      margin-left: 7.5%;
-    
-    }
-    div.user_image p{
-    position: absolute;
-    top:25px;
-    left:50px;
-   }
-    img#ind_image1{
-      height: 70vh;
-    }
-    div#ind_image button{
-      width: 20%;
-    }
- 
-      div.links{
-        margin-left: 15%;
-      }
-    div.copyright{
-      margin-left: 36%;
-    }
-    div.icon3{
-      display: block;
-      position: absolute;
-      top:40px;
-      left:220px;
-    }
-    div.icon3 img{
-      width: 26px;
-      height: 26px;
-    }
-     div.links,div.copyright{
-      display: block;
-    }
-    div.links ul.foot_icons li{ 
-      font-weight: bold;
-
-      font-size: 12px;
-    }
-    ul#icons1{
-
-      position: relative;
-      left:-100px;
-      margin-left: 18%;
-                    
-    }
-    ul#icons2{
-      position: relative;
-      left:-80px;
-      bottom:10px;
-
-      margin-left: 18%;
-    }
-    div.copyright{
-      margin-bottom: 20px;
-      font-size: 13px;
-      color: grey;
-      font-weight: bolder;
-    }
-    img#close{
-      display: block;
-      width: 24px;
-      height: 24px;
-     position: fixed;
-     right: 5px;
-     top:5px;
-     cursor: pointer;
-    }
+	div.header{
+		display: none;
+	}
+	div.footer{
+		display: none;
+	}
+	div.content{
+		width: 100%;
+		background-color: #fafafa;
+		height: 100vh;
+		position: fixed;
+	}
+	div.wrapper{
+		top:80px;
+	}
+	div.dots{
+		display: none;
+	}
+	div.header2{
+		width: 100%;
+		height: 12.1vh;
+		z-index: 3;
+		position: fixed;
+		border-bottom: 1px solid lightgrey;
+		background-color: white;
+		display: block;
+	}
+	img#compass{
+		width: 35px;
+		height: 35px;
+		position: absolute;
+		margin-left:65%;
+		top:20px;
+	}
+	img#love1{
+		width: 28px;
+		height:23px;
+		position: absolute;
+		margin-left:65%;
+		left:90px;
+		top:27px;
+	}
+	img#person1{
+		width: 28px;
+		height: 28px;
+		position: absolute;
+		margin-left: 65%;
+		left:140px;
+		top:27px;
+	}
+	input#search_user{
+		height: 28px;
+		display: block;
+		width: 90px;
+		position: absolute;
+		top:25px;
+		left:43%;
+		z-index: -1;
+		background-color: :lightgrey;
+		border: solid 1px #dbdbdb;
+		font-size: 14px;
+		line-height: 18px;
+	}
+	::-webkit-input-placeholder{
+		text-align: center;
+	}
+	img.img1:hover,img.img2:hover,img.img3:hover{
+		filter: brightness(60%);
+	}
+	.heading1{
+		width: 36%;
+		position: absolute;
+		top:.8em;
+	}
+	img#logo{
+		width: 30px;
+		height: auto;
+		margin-left: 40px;
+		position: relative;
+		bottom:20px; 
+	}
+	img#insta{
+		width:90px;
+		position: absolute;
+		bottom:22px;
+		left:100px;
+	}
+	div.vr{
+		border-right: 1px solid grey;
+		padding-right: 15px;
+		height: 30px;
+		width: 10px;
+		position: relative;
+		left:59px;
+		top:9px;
+	}
+	div.heading_image{
+		display: none;
+	}
+	div#ind_image{
+		height: 100vh;
+		overflow-y: scroll;
+		width: 85%;
+		margin-left: 7.5%;
+	}
+	div.user_image p{
+		position: absolute;
+		top:25px;
+		left:50px;
+	}
+	img#ind_image1{
+		height: 70vh;
+	}
+	div#ind_image button{
+		width: 20%;
+	}
+	div.links{
+		margin-left: 15%;
+	}
+	div.copyright{
+		margin-left: 36%;
+	}
+	div.icon3{
+		display: block;
+		position: absolute;
+		top:40px;
+		left:220px;
+	}
+	div.icon3 img{
+		width: 26px;
+		height: 26px;
+	}
+	div.links{
+		display: block;
+	}
+	div.links ul.foot_icons li{ 
+		font-weight: bold;
+		font-size: 12px;
+	}
+	.links{
+		margin-top:100px;
+	}
+	img#close{
+		display: block;
+		width: 24px;
+		height: 24px;
+		position: fixed;
+		right: 5px;
+		top:5px;
+		cursor: pointer;
+	}
 }
 @media only screen and  (min-width: 600px){
-  input#search_user{
-    width: 215px;
-    left:0px;
-    margin-left: 33%;
-  }
+	input#search_user{
+		width: 215px;
+		left:0px;
+		margin-left: 33%;
+	}
 }
 
 @media only screen and  (min-width: 726px){
- 
-
-   img#me{
-    width: 152px;
-    height: 152px;
-
-    
-   }
-   div.user_photo{
-    margin-left: 38%;
-    top:1em;
-    left:-200px;
-   }
-   div.person_name{
-      width: 103px;
-    font-size:25px;
-     left:-20px;
-    margin-left: 38%;
-     
-     }
-     button#edit_profile{
-      
-      width: 128px; 
-         height: 28px;
-      position: relative;
-      bottom: 65px;
-      left:100px;
-     margin-left: 38%;
-
-     }
-     div.icon3{
-      left:240px;
-      top:44px;
-      margin-left: 38%;
-     }
-     hr{
-      display: none;
-     }
-     div.stats ul{
-     
-      top:70px;
-      font-size: 14px;
-      left:-90px;
-      margin-left: 38%;
-     }
-     
-      p#caption{
-        bottom:10px;
-        left:-15px;
-        margin-left: 38%;
-      }
-     
-      img.img1{
-      width: 30%;
-      height:30vw;
-      left:4%;
-   
-    }
-     img.img2{
-      width: 30%;
-      height:30vw;
-      left:37%;
-   
-    }
-     img.img3{
-      width: 30%;
-      height:30vw;
-      left:68%;
-   
-    }
-     ul#icons1{
-
-      position: relative;
-      left:-100px;
-      margin-left: 26%;
-                    
-    }
-    ul#icons2{
-      
-
-      margin-left: 26%;
-    }
-    div.copyright{
-      margin-bottom: 20px;
-      margin-left: 42%;
-    }
-    div.load{
-      width: 100px;
-      margin: auto;
-    }
-
+	img#me{
+		width: 152px;
+		height: 152px;
+	}
+	div.user_photo{
+		margin-left: 38%;
+		top:1em;
+		left:-200px;
+	}
+	.person_name{
+		width: 103px;
+		font-size:25px;
+		left:-20px;
+		margin-left: 38%;
+	}
+	button#edit_profile{
+		width: 128px; 
+		height: 28px;
+		position: relative;
+		bottom: 65px;
+		left:100px;
+		margin-left: 38%;
+	}
+	div.icon3{
+		left:240px;
+		top:44px;
+		margin-left: 38%;
+	}
+	hr{
+		display: none;
+	}
+	div.stats ul{
+		top:70px;
+		font-size: 14px;
+		left:-90px;
+		margin-left: 38%;
+	}
+	#caption{
+		bottom:10px;
+		left:-15px;
+		margin-left: 38%;
+	}
+	img.img1{
+		width: 30%;
+		height:30vw;
+		left:4%;
+	}
+	img.img2{
+		width: 30%;
+		height:30vw;
+		left:37%;
+	}
+	img.img3{
+		width: 30%;
+		height:30vw;
+		left:68%;
+	}
+	div.load{
+		width: 100px;
+		margin: auto;
+	}
 }
 
 @media only screen and  (min-width: 1000px){
- 
-div.wrapper{
-  width:80%;
-  margin-left: 10%;
-  background-color: white;
+	div.wrapper{
+		width:80%;
+		margin-left: 10%;
+		background-color: white;
+	}
+	div.icon3{
+		left:270px;
+	}
+	div.stats ul{
+		left:-65px;
+	}
+	ul#icons1,ul#icons2{
+		display: none;
+	}
+	ul#icon3{
+		display: block;
+		position: relative;
+		right:148px;
+	}
+	div.copyright{
+		position: relative;
+		bottom:36px;
+		left:350px;
+	}
+	div.user_image{
+		position: relative;
+		bottom:15px;
+		left:65%;
+	}
+	div.extra_info{
+		position: absolute;
+		top:450px;
+		left:65%;
+	}
+	div#ind_image{
+		height: 600px;
+		overflow-y: hidden;
+		width: 935px;
+		position: relative;
+		top:37px;
+		left:-450px;
+		margin-left: 50%;
+	}
+	div.user_image p{
+		position: absolute;
+		top:1px; 
+	}
+	img#ind_image1{
+		height:600px;
+		width: 600px;
+		position:relative;
+		top:-72px;
+	}
+	input#search_user{
+		margin-left: 65%;
+		position: relative;
+		left:-330px;
+	}
+	div.logo1{
+		position: absolute;
+		margin-left: 65%;
+		left: -100px;
+	}
 }
-
-div.icon3{
-  left:270px;
-}
-div.stats ul{
-  left:-65px;
-}
-
-ul#icons1,ul#icons2{
-  display: none;
-}
-ul#icon3{
-  display: block;
-  position: relative;
-  right:148px;
-}
- div.copyright{
-     position: relative;
-     bottom:36px;
-     left:350px;
-    }
- div.user_image{
-      position: relative;
-      bottom:15px;
-      left:65%;
-    }
-    div.extra_info{
-       position: absolute;
-      top:450px;
-      left:65%;
-    }
-    div#ind_image{
-      height: 600px;
-      overflow-y: hidden;
-      width: 935px;
-     position: relative;
-     top:37px;
-     left:-450px;
-
-      margin-left: 50%;
-
-    
-    }
-    div.user_image p{
-    position: absolute;
-    top:1px; 
-   
-   }
-    img#ind_image1{
-      height:600px;
-      width: 600px;
-      position:relative;
-      top:-72px;
-
-    }
-    input#search_user{
-      margin-left: 65%;
-      position: relative;
-      left:-330px;
-    }
-   div.logo1{
-    position: absolute;
-    margin-left: 65%;
-    left: -100px;
-
-   }
-
-}
-
 @media only screen and  (min-width: 1200px){
-  img.img1{
-    height: 300px;
-    width: 300px;
-  }
-  img.img2{
-    height: 300px;
-    width: 300px;
-  }
-  img.img3{
-    height: 300px;
-    width: 300px;
-  }
- 
+	img.img1{
+		height: 300px;
+		width: 300px;
+	}
+	img.img2{
+		height: 300px;
+		width: 300px;
+	}
+	img.img3{
+		height: 300px;
+		width: 300px;
+	}
 }
