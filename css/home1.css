@@ -38,7 +38,6 @@
   }
   div.header{
     width: 100%;
-    height: 7%;
     background-color: white;
     z-index: 3;
     border-bottom:.5px solid lightgrey;
@@ -314,7 +313,7 @@ div#dots{
 }
 div.header2{
   width: 100%;
-  height: 12.1vh;
+  height: 80px;
   position: fixed;
   border-top: 1px solid lightgrey;
   display: block;

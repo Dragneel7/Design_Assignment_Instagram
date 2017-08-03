@@ -84,7 +84,6 @@ img#person{
 div.header{
  width: 100%;
  border-bottom:1px solid lightgrey;
- height: 7%;
  position: fixed;
  z-index:4;
  background-color: white;
@@ -191,7 +190,7 @@ div.content{
 }
 div.header2{
   width: 100%;
-  height: 12.1vh;
+  height: 80px;
   position: fixed;
   border-bottom: 1px solid lightgrey;
   display: block;
